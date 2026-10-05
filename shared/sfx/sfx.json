@@ -1,5 +1,5 @@
 {
- "_note": "딸깍 게임 공용 효과음(CC0). files = 파일마다 크기 맞춤 배율(실효값 0.12 기준), sets = 이름마다 번갈아 쓸 파일과 크기. game/shared/audio.js 가 읽는다.",
+ "_note": "딸깍 게임 공용 효과음(CC0). files = 파일마다 크기 맞춤 배율(실효값 0.12 기준), sets = 이름마다 번갈아 쓸 파일과 크기, loops = 반복 소리(엔진·비·바람 — au.loop(이름)). 무엇이 어디 쓰이는지는 catalog.json. game/shared/audio.js 가 읽는다.",
  "files": {
   "blade_01.ogg": 1.1,
   "blade_02.ogg": 0.97,
@@ -29,19 +29,9 @@
   "spell_fire_05.ogg": 8,
   "spell_fire_06.ogg": 3.65,
   "spell_fire_07.ogg": 4.8,
-  "impactGlass_light_000.ogg": 1.13,
-  "impactGlass_light_001.ogg": 1.06,
-  "impactGlass_light_002.ogg": 1.09,
-  "impactGlass_light_003.ogg": 1.08,
-  "impactGlass_light_004.ogg": 1.04,
   "spell_01.ogg": 0.91,
   "spell_02.ogg": 1.02,
   "chain_01.ogg": 0.96,
-  "pluck_001.ogg": 0.9,
-  "pluck_002.ogg": 1.0,
-  "maximize_003.ogg": 1.06,
-  "maximize_007.ogg": 0.57,
-  "glass_005.ogg": 1.06,
   "impactMining_000.ogg": 1.07,
   "impactMining_001.ogg": 1.07,
   "impactMining_002.ogg": 1.09,
@@ -95,7 +85,365 @@
   "open_002.ogg": 0.79,
   "open_003.ogg": 0.69,
   "close_002.ogg": 0.79,
-  "close_003.ogg": 0.69
+  "close_003.ogg": 0.69,
+  "cancel-1.ogg": 0.8,
+  "cancel-2.ogg": 0.8,
+  "cancel-3.ogg": 0.8,
+  "error-1.ogg": 0.8,
+  "error-2.ogg": 0.8,
+  "error-3.ogg": 0.8,
+  "hover-1.ogg": 0.8,
+  "hover-2.ogg": 0.8,
+  "hover-3.ogg": 0.8,
+  "toggle-1.ogg": 0.8,
+  "toggle-2.ogg": 0.8,
+  "toggle-3.ogg": 0.8,
+  "page-1.ogg": 0.8,
+  "page-2.ogg": 0.8,
+  "page-3.ogg": 0.8,
+  "paper-1.ogg": 0.8,
+  "paper-2.ogg": 0.8,
+  "paper-3.ogg": 0.8,
+  "write-1.ogg": 0.8,
+  "write-2.ogg": 0.8,
+  "stamp-1.ogg": 0.8,
+  "stamp-2.ogg": 0.8,
+  "stamp-3.ogg": 0.8,
+  "coin-1.ogg": 0.8,
+  "coin-2.ogg": 0.8,
+  "coin-3.ogg": 0.8,
+  "buy-1.ogg": 0.8,
+  "buy-2.ogg": 0.8,
+  "unlock-1.ogg": 0.8,
+  "unlock-2.ogg": 0.8,
+  "type-1.ogg": 0.8,
+  "type-2.ogg": 0.8,
+  "type-3.ogg": 0.8,
+  "type-4.ogg": 0.8,
+  "typewriter-1.ogg": 0.8,
+  "typewriter-2.ogg": 0.8,
+  "typewriter-3.ogg": 0.8,
+  "typewriter-4.ogg": 0.8,
+  "phone-1.ogg": 0.8,
+  "phone-2.ogg": 0.8,
+  "message-1.ogg": 0.8,
+  "message-2.ogg": 0.8,
+  "alarm-1.ogg": 0.8,
+  "alarm-2.ogg": 0.8,
+  "clash-1.ogg": 0.8,
+  "clash-2.ogg": 0.8,
+  "clash-3.ogg": 0.8,
+  "clash-4.ogg": 0.8,
+  "slash-1.ogg": 0.8,
+  "slash-2.ogg": 0.8,
+  "slash-3.ogg": 0.8,
+  "stab-1.ogg": 0.8,
+  "stab-2.ogg": 0.8,
+  "stab-3.ogg": 0.8,
+  "blunt-1.ogg": 0.8,
+  "blunt-2.ogg": 0.8,
+  "blunt-3.ogg": 0.8,
+  "clang-1.ogg": 0.8,
+  "clang-2.ogg": 0.8,
+  "clang-3.ogg": 0.8,
+  "block-1.ogg": 0.8,
+  "block-2.ogg": 0.8,
+  "block-3.ogg": 0.8,
+  "chop-1.ogg": 0.8,
+  "unsheathe-1.ogg": 0.8,
+  "unsheathe-2.ogg": 0.8,
+  "unsheathe-3.ogg": 0.8,
+  "punch-1.ogg": 0.8,
+  "punch-2.ogg": 0.8,
+  "punch-3.ogg": 0.8,
+  "bodyfall-1.ogg": 0.8,
+  "bodyfall-2.ogg": 0.8,
+  "bodyfall-3.ogg": 0.8,
+  "bow-1.ogg": 0.8,
+  "bow-2.ogg": 0.8,
+  "arrowHit-1.ogg": 0.8,
+  "arrowHit-2.ogg": 0.8,
+  "arrowHit-3.ogg": 0.8,
+  "whoosh-1.ogg": 0.8,
+  "whoosh-2.ogg": 0.8,
+  "whoosh-3.ogg": 0.8,
+  "quiver-1.ogg": 0.8,
+  "quiver-2.ogg": 0.8,
+  "quiver-3.ogg": 0.8,
+  "crossbow-1.ogg": 0.8,
+  "crossbow-2.ogg": 0.8,
+  "throw-1.ogg": 0.8,
+  "throw-2.ogg": 0.8,
+  "throw-3.ogg": 0.8,
+  "pistol-1.ogg": 0.8,
+  "pistol-2.ogg": 0.8,
+  "pistol-3.ogg": 0.8,
+  "revolver-1.ogg": 0.8,
+  "revolver-2.ogg": 0.8,
+  "shotgun-1.ogg": 0.8,
+  "shotgun-2.ogg": 0.8,
+  "shotgun-3.ogg": 0.8,
+  "pump-1.ogg": 0.8,
+  "pump-2.ogg": 0.8,
+  "rifle-1.ogg": 0.8,
+  "rifle-2.ogg": 0.8,
+  "rifle-3.ogg": 0.8,
+  "smg-1.ogg": 0.8,
+  "smg-2.ogg": 0.8,
+  "silenced-1.ogg": 0.8,
+  "silenced-2.ogg": 0.8,
+  "silenced-3.ogg": 0.8,
+  "reload-1.ogg": 0.8,
+  "reload-2.ogg": 0.8,
+  "reload-3.ogg": 0.8,
+  "dryfire-1.ogg": 0.8,
+  "dryfire-2.ogg": 0.8,
+  "explosion-1.ogg": 0.8,
+  "explosion-2.ogg": 0.8,
+  "explosion-3.ogg": 0.8,
+  "explosion-4.ogg": 0.8,
+  "explosionFar-1.ogg": 0.8,
+  "explosionFar-2.ogg": 0.8,
+  "cannon-1.ogg": 0.8,
+  "cannon-2.ogg": 0.8,
+  "cannon-3.ogg": 0.8,
+  "firecracker-1.ogg": 0.8,
+  "firecracker-2.ogg": 0.8,
+  "firecracker-3.ogg": 0.8,
+  "glassBreak-1.ogg": 0.8,
+  "glassBreak-2.ogg": 0.8,
+  "glassBreak-3.ogg": 0.8,
+  "magic-1.ogg": 0.8,
+  "magic-2.ogg": 0.8,
+  "magic-3.ogg": 0.8,
+  "holy-1.ogg": 0.8,
+  "holy-2.ogg": 0.8,
+  "holy-3.ogg": 0.8,
+  "heal-1.ogg": 0.8,
+  "heal-2.ogg": 0.8,
+  "heal-3.ogg": 0.8,
+  "buff-1.ogg": 0.8,
+  "buff-2.ogg": 0.8,
+  "buff-3.ogg": 0.8,
+  "frost-1.ogg": 0.8,
+  "frost-2.ogg": 0.8,
+  "frost-3.ogg": 0.8,
+  "zap-1.ogg": 0.8,
+  "zap-2.ogg": 0.8,
+  "zap-3.ogg": 0.8,
+  "poison-1.ogg": 0.8,
+  "poison-2.ogg": 0.8,
+  "poison-3.ogg": 0.8,
+  "blink-1.ogg": 0.8,
+  "blink-2.ogg": 0.8,
+  "blink-3.ogg": 0.8,
+  "shield-1.ogg": 0.8,
+  "shield-2.ogg": 0.8,
+  "regress-1.ogg": 0.8,
+  "zombie-1.ogg": 0.8,
+  "zombie-2.ogg": 0.8,
+  "zombie-3.ogg": 0.8,
+  "zombie-4.ogg": 0.8,
+  "zombie-5.ogg": 0.8,
+  "zombieAttack-1.ogg": 0.8,
+  "zombieAttack-2.ogg": 0.8,
+  "zombieAttack-3.ogg": 0.8,
+  "zombieAttack-4.ogg": 0.8,
+  "zombieDie-1.ogg": 0.8,
+  "zombieDie-2.ogg": 0.8,
+  "zombieDie-3.ogg": 0.8,
+  "zombieDie-4.ogg": 0.8,
+  "scream-1.ogg": 0.8,
+  "scream-2.ogg": 0.8,
+  "scream-3.ogg": 0.8,
+  "monster-1.ogg": 0.8,
+  "monster-2.ogg": 0.8,
+  "monster-3.ogg": 0.8,
+  "monster-4.ogg": 0.8,
+  "roar-1.ogg": 0.8,
+  "roar-2.ogg": 0.8,
+  "roar-3.ogg": 0.8,
+  "roar-4.ogg": 0.8,
+  "slime-1.ogg": 0.8,
+  "slime-2.ogg": 0.8,
+  "slime-3.ogg": 0.8,
+  "slime-4.ogg": 0.8,
+  "spit-1.ogg": 0.8,
+  "spit-2.ogg": 0.8,
+  "spit-3.ogg": 0.8,
+  "dog-1.ogg": 0.8,
+  "dog-2.ogg": 0.8,
+  "growl-1.ogg": 0.8,
+  "growl-2.ogg": 0.8,
+  "crow-1.ogg": 0.8,
+  "cough-1.ogg": 0.8,
+  "cough-2.ogg": 0.8,
+  "cough-3.ogg": 0.8,
+  "gulp-1.ogg": 0.8,
+  "gulp-2.ogg": 0.8,
+  "gulp-3.ogg": 0.8,
+  "eat-1.ogg": 0.8,
+  "eat-2.ogg": 0.8,
+  "eat-3.ogg": 0.8,
+  "cheer-1.ogg": 0.8,
+  "cheer-2.ogg": 0.8,
+  "cheer-3.ogg": 0.8,
+  "applause-1.ogg": 0.8,
+  "applause-2.ogg": 0.8,
+  "warcry-1.ogg": 0.8,
+  "warcry-2.ogg": 0.8,
+  "step-1.ogg": 0.8,
+  "step-2.ogg": 0.8,
+  "step-3.ogg": 0.8,
+  "step-4.ogg": 0.8,
+  "stepGrass-1.ogg": 0.8,
+  "stepGrass-2.ogg": 0.8,
+  "stepGrass-3.ogg": 0.8,
+  "stepGrass-4.ogg": 0.8,
+  "stepSnow-1.ogg": 0.8,
+  "stepSnow-2.ogg": 0.8,
+  "stepSnow-3.ogg": 0.8,
+  "stepSnow-4.ogg": 0.8,
+  "stepWood-1.ogg": 0.8,
+  "stepWood-2.ogg": 0.8,
+  "stepWood-3.ogg": 0.8,
+  "stepWood-4.ogg": 0.8,
+  "stepMud-1.ogg": 0.8,
+  "stepMud-2.ogg": 0.8,
+  "stepMud-3.ogg": 0.8,
+  "stepMud-4.ogg": 0.8,
+  "cloth-1.ogg": 0.8,
+  "cloth-2.ogg": 0.8,
+  "cloth-3.ogg": 0.8,
+  "armor-1.ogg": 0.8,
+  "armor-2.ogg": 0.8,
+  "armor-3.ogg": 0.8,
+  "carStart-1.ogg": 0.8,
+  "screech-1.ogg": 0.8,
+  "screech-2.ogg": 0.8,
+  "screech-3.ogg": 0.8,
+  "crash-1.ogg": 0.8,
+  "crash-2.ogg": 0.8,
+  "crash-3.ogg": 0.8,
+  "bump-1.ogg": 0.8,
+  "bump-2.ogg": 0.8,
+  "bump-3.ogg": 0.8,
+  "horn-1.ogg": 0.8,
+  "horn-2.ogg": 0.8,
+  "horn-3.ogg": 0.8,
+  "trainHorn-1.ogg": 0.8,
+  "trainHorn-2.ogg": 0.8,
+  "train-1.ogg": 0.8,
+  "train-2.ogg": 0.8,
+  "boost-1.ogg": 0.8,
+  "boost-2.ogg": 0.8,
+  "slip-1.ogg": 0.8,
+  "slip-2.ogg": 0.8,
+  "slip-3.ogg": 0.8,
+  "wrench-1.ogg": 0.8,
+  "wrench-2.ogg": 0.8,
+  "door-1.ogg": 0.8,
+  "door-2.ogg": 0.8,
+  "doorClose-1.ogg": 0.8,
+  "doorClose-2.ogg": 0.8,
+  "doorClose-3.ogg": 0.8,
+  "doorBang-1.ogg": 0.8,
+  "doorBang-2.ogg": 0.8,
+  "doorBang-3.ogg": 0.8,
+  "woodBreak-1.ogg": 0.8,
+  "woodBreak-2.ogg": 0.8,
+  "woodBreak-3.ogg": 0.8,
+  "rockFall-1.ogg": 0.8,
+  "rockFall-2.ogg": 0.8,
+  "rockFall-3.ogg": 0.8,
+  "crack-1.ogg": 0.8,
+  "crack-2.ogg": 0.8,
+  "crack-3.ogg": 0.8,
+  "metalFall-1.ogg": 0.8,
+  "metalFall-2.ogg": 0.8,
+  "metalFall-3.ogg": 0.8,
+  "thud-1.ogg": 0.8,
+  "thud-2.ogg": 0.8,
+  "trap-1.ogg": 0.8,
+  "trap-2.ogg": 0.8,
+  "trap-3.ogg": 0.8,
+  "chest-1.ogg": 0.8,
+  "chest-2.ogg": 0.8,
+  "chest-3.ogg": 0.8,
+  "lever-1.ogg": 0.8,
+  "lever-2.ogg": 0.8,
+  "hammer-1.ogg": 0.8,
+  "hammer-2.ogg": 0.8,
+  "hammer-3.ogg": 0.8,
+  "drill-1.ogg": 0.8,
+  "drill-2.ogg": 0.8,
+  "bell-1.ogg": 0.8,
+  "bell-2.ogg": 0.8,
+  "bell-3.ogg": 0.8,
+  "gong-1.ogg": 0.8,
+  "gong-2.ogg": 0.8,
+  "gong-3.ogg": 0.8,
+  "drum-1.ogg": 0.8,
+  "drum-2.ogg": 0.8,
+  "drum-3.ogg": 0.8,
+  "warHorn-1.ogg": 0.8,
+  "warHorn-2.ogg": 0.8,
+  "flute-1.ogg": 0.8,
+  "chime-1.ogg": 0.8,
+  "chime-2.ogg": 0.8,
+  "dig-1.ogg": 0.8,
+  "dig-2.ogg": 0.8,
+  "plant-1.ogg": 0.8,
+  "plant-2.ogg": 0.8,
+  "plant-3.ogg": 0.8,
+  "water-1.ogg": 0.8,
+  "water-2.ogg": 0.8,
+  "harvest-1.ogg": 0.8,
+  "harvest-2.ogg": 0.8,
+  "harvest-3.ogg": 0.8,
+  "chicken-1.ogg": 0.8,
+  "chicken-2.ogg": 0.8,
+  "chicken-3.ogg": 0.8,
+  "rooster-1.ogg": 0.8,
+  "rooster-2.ogg": 0.8,
+  "cow-1.ogg": 0.8,
+  "cow-2.ogg": 0.8,
+  "cow-3.ogg": 0.8,
+  "pig-1.ogg": 0.8,
+  "pig-2.ogg": 0.8,
+  "sheep-1.ogg": 0.8,
+  "sheep-2.ogg": 0.8,
+  "sheep-3.ogg": 0.8,
+  "goat-1.ogg": 0.8,
+  "goat-2.ogg": 0.8,
+  "duck-1.ogg": 0.8,
+  "duck-2.ogg": 0.8,
+  "horse-1.ogg": 0.8,
+  "horse-2.ogg": 0.8,
+  "horse-3.ogg": 0.8,
+  "horseSnort-1.ogg": 0.8,
+  "horseSnort-2.ogg": 0.8,
+  "horseSnort-3.ogg": 0.8,
+  "cat-1.ogg": 0.8,
+  "cat-2.ogg": 0.8,
+  "cat-3.ogg": 0.8,
+  "thunder-1.ogg": 0.8,
+  "thunder-2.ogg": 0.8,
+  "splash-1.ogg": 0.8,
+  "splash-2.ogg": 0.8,
+  "splash-3.ogg": 0.8,
+  "splash-4.ogg": 0.8,
+  "bigSplash-1.ogg": 0.8,
+  "bigSplash-2.ogg": 0.8,
+  "bigSplash-3.ogg": 0.8,
+  "drip-1.ogg": 0.8,
+  "drip-2.ogg": 0.8,
+  "drip-3.ogg": 0.8,
+  "ignite-1.ogg": 0.8,
+  "ignite-2.ogg": 0.8,
+  "ignite-3.ogg": 0.8,
+  "shipHit-1.ogg": 0.8,
+  "shipSink-1.ogg": 0.8
  },
  "sets": {
   "swing": {
@@ -158,13 +506,11 @@
   },
   "frost": {
    "f": [
-    "impactGlass_light_000.ogg",
-    "impactGlass_light_001.ogg",
-    "impactGlass_light_002.ogg",
-    "impactGlass_light_003.ogg",
-    "impactGlass_light_004.ogg"
+    "frost-1.ogg",
+    "frost-2.ogg",
+    "frost-3.ogg"
    ],
-   "v": 0.45
+   "v": 0.55
   },
   "bolt": {
    "f": [
@@ -176,18 +522,18 @@
   },
   "bow": {
    "f": [
-    "pluck_001.ogg",
-    "pluck_002.ogg"
+    "bow-1.ogg",
+    "bow-2.ogg"
    ],
-   "v": 0.55
+   "v": 0.6
   },
   "blink": {
    "f": [
-    "maximize_003.ogg",
-    "maximize_007.ogg",
-    "glass_005.ogg"
+    "blink-1.ogg",
+    "blink-2.ogg",
+    "blink-3.ogg"
    ],
-   "v": 0.35
+   "v": 0.45
   },
   "boom": {
    "f": [
@@ -339,6 +685,1194 @@
     "close_003.ogg"
    ],
    "v": 0.4
+  },
+  "cancel": {
+   "f": [
+    "cancel-1.ogg",
+    "cancel-2.ogg",
+    "cancel-3.ogg"
+   ],
+   "v": 0.4
+  },
+  "error": {
+   "f": [
+    "error-1.ogg",
+    "error-2.ogg",
+    "error-3.ogg"
+   ],
+   "v": 0.4
+  },
+  "hover": {
+   "f": [
+    "hover-1.ogg",
+    "hover-2.ogg",
+    "hover-3.ogg"
+   ],
+   "v": 0.25
+  },
+  "toggle": {
+   "f": [
+    "toggle-1.ogg",
+    "toggle-2.ogg",
+    "toggle-3.ogg"
+   ],
+   "v": 0.35
+  },
+  "page": {
+   "f": [
+    "page-1.ogg",
+    "page-2.ogg",
+    "page-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "paper": {
+   "f": [
+    "paper-1.ogg",
+    "paper-2.ogg",
+    "paper-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "write": {
+   "f": [
+    "write-1.ogg",
+    "write-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "stamp": {
+   "f": [
+    "stamp-1.ogg",
+    "stamp-2.ogg",
+    "stamp-3.ogg"
+   ],
+   "v": 0.55
+  },
+  "coin": {
+   "f": [
+    "coin-1.ogg",
+    "coin-2.ogg",
+    "coin-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "buy": {
+   "f": [
+    "buy-1.ogg",
+    "buy-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "unlock": {
+   "f": [
+    "unlock-1.ogg",
+    "unlock-2.ogg"
+   ],
+   "v": 0.5
+  },
+  "type": {
+   "f": [
+    "type-1.ogg",
+    "type-2.ogg",
+    "type-3.ogg",
+    "type-4.ogg"
+   ],
+   "v": 0.35
+  },
+  "typewriter": {
+   "f": [
+    "typewriter-1.ogg",
+    "typewriter-2.ogg",
+    "typewriter-3.ogg",
+    "typewriter-4.ogg"
+   ],
+   "v": 0.35
+  },
+  "phone": {
+   "f": [
+    "phone-1.ogg",
+    "phone-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "message": {
+   "f": [
+    "message-1.ogg",
+    "message-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "alarm": {
+   "f": [
+    "alarm-1.ogg",
+    "alarm-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "clash": {
+   "f": [
+    "clash-1.ogg",
+    "clash-2.ogg",
+    "clash-3.ogg",
+    "clash-4.ogg"
+   ],
+   "v": 0.55
+  },
+  "slash": {
+   "f": [
+    "slash-1.ogg",
+    "slash-2.ogg",
+    "slash-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "stab": {
+   "f": [
+    "stab-1.ogg",
+    "stab-2.ogg",
+    "stab-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "blunt": {
+   "f": [
+    "blunt-1.ogg",
+    "blunt-2.ogg",
+    "blunt-3.ogg"
+   ],
+   "v": 0.55
+  },
+  "clang": {
+   "f": [
+    "clang-1.ogg",
+    "clang-2.ogg",
+    "clang-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "block": {
+   "f": [
+    "block-1.ogg",
+    "block-2.ogg",
+    "block-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "chop": {
+   "f": [
+    "chop-1.ogg"
+   ],
+   "v": 0.55
+  },
+  "unsheathe": {
+   "f": [
+    "unsheathe-1.ogg",
+    "unsheathe-2.ogg",
+    "unsheathe-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "punch": {
+   "f": [
+    "punch-1.ogg",
+    "punch-2.ogg",
+    "punch-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "bodyfall": {
+   "f": [
+    "bodyfall-1.ogg",
+    "bodyfall-2.ogg",
+    "bodyfall-3.ogg"
+   ],
+   "v": 0.55
+  },
+  "arrowHit": {
+   "f": [
+    "arrowHit-1.ogg",
+    "arrowHit-2.ogg",
+    "arrowHit-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "whoosh": {
+   "f": [
+    "whoosh-1.ogg",
+    "whoosh-2.ogg",
+    "whoosh-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "quiver": {
+   "f": [
+    "quiver-1.ogg",
+    "quiver-2.ogg",
+    "quiver-3.ogg"
+   ],
+   "v": 0.4
+  },
+  "crossbow": {
+   "f": [
+    "crossbow-1.ogg",
+    "crossbow-2.ogg"
+   ],
+   "v": 0.55
+  },
+  "throw": {
+   "f": [
+    "throw-1.ogg",
+    "throw-2.ogg",
+    "throw-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "pistol": {
+   "f": [
+    "pistol-1.ogg",
+    "pistol-2.ogg",
+    "pistol-3.ogg"
+   ],
+   "v": 0.6
+  },
+  "revolver": {
+   "f": [
+    "revolver-1.ogg",
+    "revolver-2.ogg"
+   ],
+   "v": 0.65
+  },
+  "shotgun": {
+   "f": [
+    "shotgun-1.ogg",
+    "shotgun-2.ogg",
+    "shotgun-3.ogg"
+   ],
+   "v": 0.7
+  },
+  "pump": {
+   "f": [
+    "pump-1.ogg",
+    "pump-2.ogg"
+   ],
+   "v": 0.5
+  },
+  "rifle": {
+   "f": [
+    "rifle-1.ogg",
+    "rifle-2.ogg",
+    "rifle-3.ogg"
+   ],
+   "v": 0.7
+  },
+  "smg": {
+   "f": [
+    "smg-1.ogg",
+    "smg-2.ogg"
+   ],
+   "v": 0.6
+  },
+  "silenced": {
+   "f": [
+    "silenced-1.ogg",
+    "silenced-2.ogg",
+    "silenced-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "reload": {
+   "f": [
+    "reload-1.ogg",
+    "reload-2.ogg",
+    "reload-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "dryfire": {
+   "f": [
+    "dryfire-1.ogg",
+    "dryfire-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "explosion": {
+   "f": [
+    "explosion-1.ogg",
+    "explosion-2.ogg",
+    "explosion-3.ogg",
+    "explosion-4.ogg"
+   ],
+   "v": 0.8
+  },
+  "explosionFar": {
+   "f": [
+    "explosionFar-1.ogg",
+    "explosionFar-2.ogg"
+   ],
+   "v": 0.6
+  },
+  "cannon": {
+   "f": [
+    "cannon-1.ogg",
+    "cannon-2.ogg",
+    "cannon-3.ogg"
+   ],
+   "v": 0.75
+  },
+  "firecracker": {
+   "f": [
+    "firecracker-1.ogg",
+    "firecracker-2.ogg",
+    "firecracker-3.ogg"
+   ],
+   "v": 0.6
+  },
+  "glassBreak": {
+   "f": [
+    "glassBreak-1.ogg",
+    "glassBreak-2.ogg",
+    "glassBreak-3.ogg"
+   ],
+   "v": 0.6
+  },
+  "magic": {
+   "f": [
+    "magic-1.ogg",
+    "magic-2.ogg",
+    "magic-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "holy": {
+   "f": [
+    "holy-1.ogg",
+    "holy-2.ogg",
+    "holy-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "heal": {
+   "f": [
+    "heal-1.ogg",
+    "heal-2.ogg",
+    "heal-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "buff": {
+   "f": [
+    "buff-1.ogg",
+    "buff-2.ogg",
+    "buff-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "zap": {
+   "f": [
+    "zap-1.ogg",
+    "zap-2.ogg",
+    "zap-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "poison": {
+   "f": [
+    "poison-1.ogg",
+    "poison-2.ogg",
+    "poison-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "shield": {
+   "f": [
+    "shield-1.ogg",
+    "shield-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "regress": {
+   "f": [
+    "regress-1.ogg"
+   ],
+   "v": 0.5
+  },
+  "zombie": {
+   "f": [
+    "zombie-1.ogg",
+    "zombie-2.ogg",
+    "zombie-3.ogg",
+    "zombie-4.ogg",
+    "zombie-5.ogg"
+   ],
+   "v": 0.5
+  },
+  "zombieAttack": {
+   "f": [
+    "zombieAttack-1.ogg",
+    "zombieAttack-2.ogg",
+    "zombieAttack-3.ogg",
+    "zombieAttack-4.ogg"
+   ],
+   "v": 0.55
+  },
+  "zombieDie": {
+   "f": [
+    "zombieDie-1.ogg",
+    "zombieDie-2.ogg",
+    "zombieDie-3.ogg",
+    "zombieDie-4.ogg"
+   ],
+   "v": 0.55
+  },
+  "scream": {
+   "f": [
+    "scream-1.ogg",
+    "scream-2.ogg",
+    "scream-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "monster": {
+   "f": [
+    "monster-1.ogg",
+    "monster-2.ogg",
+    "monster-3.ogg",
+    "monster-4.ogg"
+   ],
+   "v": 0.5
+  },
+  "roar": {
+   "f": [
+    "roar-1.ogg",
+    "roar-2.ogg",
+    "roar-3.ogg",
+    "roar-4.ogg"
+   ],
+   "v": 0.65
+  },
+  "slime": {
+   "f": [
+    "slime-1.ogg",
+    "slime-2.ogg",
+    "slime-3.ogg",
+    "slime-4.ogg"
+   ],
+   "v": 0.45
+  },
+  "spit": {
+   "f": [
+    "spit-1.ogg",
+    "spit-2.ogg",
+    "spit-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "dog": {
+   "f": [
+    "dog-1.ogg",
+    "dog-2.ogg"
+   ],
+   "v": 0.5
+  },
+  "growl": {
+   "f": [
+    "growl-1.ogg",
+    "growl-2.ogg"
+   ],
+   "v": 0.5
+  },
+  "crow": {
+   "f": [
+    "crow-1.ogg"
+   ],
+   "v": 0.45
+  },
+  "cough": {
+   "f": [
+    "cough-1.ogg",
+    "cough-2.ogg",
+    "cough-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "gulp": {
+   "f": [
+    "gulp-1.ogg",
+    "gulp-2.ogg",
+    "gulp-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "eat": {
+   "f": [
+    "eat-1.ogg",
+    "eat-2.ogg",
+    "eat-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "cheer": {
+   "f": [
+    "cheer-1.ogg",
+    "cheer-2.ogg",
+    "cheer-3.ogg"
+   ],
+   "v": 0.55
+  },
+  "applause": {
+   "f": [
+    "applause-1.ogg",
+    "applause-2.ogg"
+   ],
+   "v": 0.5
+  },
+  "warcry": {
+   "f": [
+    "warcry-1.ogg",
+    "warcry-2.ogg"
+   ],
+   "v": 0.6
+  },
+  "step": {
+   "f": [
+    "step-1.ogg",
+    "step-2.ogg",
+    "step-3.ogg",
+    "step-4.ogg"
+   ],
+   "v": 0.3
+  },
+  "stepGrass": {
+   "f": [
+    "stepGrass-1.ogg",
+    "stepGrass-2.ogg",
+    "stepGrass-3.ogg",
+    "stepGrass-4.ogg"
+   ],
+   "v": 0.3
+  },
+  "stepSnow": {
+   "f": [
+    "stepSnow-1.ogg",
+    "stepSnow-2.ogg",
+    "stepSnow-3.ogg",
+    "stepSnow-4.ogg"
+   ],
+   "v": 0.3
+  },
+  "stepWood": {
+   "f": [
+    "stepWood-1.ogg",
+    "stepWood-2.ogg",
+    "stepWood-3.ogg",
+    "stepWood-4.ogg"
+   ],
+   "v": 0.3
+  },
+  "stepMud": {
+   "f": [
+    "stepMud-1.ogg",
+    "stepMud-2.ogg",
+    "stepMud-3.ogg",
+    "stepMud-4.ogg"
+   ],
+   "v": 0.35
+  },
+  "cloth": {
+   "f": [
+    "cloth-1.ogg",
+    "cloth-2.ogg",
+    "cloth-3.ogg"
+   ],
+   "v": 0.4
+  },
+  "armor": {
+   "f": [
+    "armor-1.ogg",
+    "armor-2.ogg",
+    "armor-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "carStart": {
+   "f": [
+    "carStart-1.ogg"
+   ],
+   "v": 0.5
+  },
+  "screech": {
+   "f": [
+    "screech-1.ogg",
+    "screech-2.ogg",
+    "screech-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "crash": {
+   "f": [
+    "crash-1.ogg",
+    "crash-2.ogg",
+    "crash-3.ogg"
+   ],
+   "v": 0.65
+  },
+  "bump": {
+   "f": [
+    "bump-1.ogg",
+    "bump-2.ogg",
+    "bump-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "horn": {
+   "f": [
+    "horn-1.ogg",
+    "horn-2.ogg",
+    "horn-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "trainHorn": {
+   "f": [
+    "trainHorn-1.ogg",
+    "trainHorn-2.ogg"
+   ],
+   "v": 0.6
+  },
+  "train": {
+   "f": [
+    "train-1.ogg",
+    "train-2.ogg"
+   ],
+   "v": 0.6
+  },
+  "boost": {
+   "f": [
+    "boost-1.ogg",
+    "boost-2.ogg"
+   ],
+   "v": 0.5
+  },
+  "slip": {
+   "f": [
+    "slip-1.ogg",
+    "slip-2.ogg",
+    "slip-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "wrench": {
+   "f": [
+    "wrench-1.ogg",
+    "wrench-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "door": {
+   "f": [
+    "door-1.ogg",
+    "door-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "doorClose": {
+   "f": [
+    "doorClose-1.ogg",
+    "doorClose-2.ogg",
+    "doorClose-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "doorBang": {
+   "f": [
+    "doorBang-1.ogg",
+    "doorBang-2.ogg",
+    "doorBang-3.ogg"
+   ],
+   "v": 0.6
+  },
+  "woodBreak": {
+   "f": [
+    "woodBreak-1.ogg",
+    "woodBreak-2.ogg",
+    "woodBreak-3.ogg"
+   ],
+   "v": 0.6
+  },
+  "rockFall": {
+   "f": [
+    "rockFall-1.ogg",
+    "rockFall-2.ogg",
+    "rockFall-3.ogg"
+   ],
+   "v": 0.65
+  },
+  "crack": {
+   "f": [
+    "crack-1.ogg",
+    "crack-2.ogg",
+    "crack-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "metalFall": {
+   "f": [
+    "metalFall-1.ogg",
+    "metalFall-2.ogg",
+    "metalFall-3.ogg"
+   ],
+   "v": 0.55
+  },
+  "thud": {
+   "f": [
+    "thud-1.ogg",
+    "thud-2.ogg"
+   ],
+   "v": 0.55
+  },
+  "trap": {
+   "f": [
+    "trap-1.ogg",
+    "trap-2.ogg",
+    "trap-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "chest": {
+   "f": [
+    "chest-1.ogg",
+    "chest-2.ogg",
+    "chest-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "lever": {
+   "f": [
+    "lever-1.ogg",
+    "lever-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "hammer": {
+   "f": [
+    "hammer-1.ogg",
+    "hammer-2.ogg",
+    "hammer-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "drill": {
+   "f": [
+    "drill-1.ogg",
+    "drill-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "bell": {
+   "f": [
+    "bell-1.ogg",
+    "bell-2.ogg",
+    "bell-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "gong": {
+   "f": [
+    "gong-1.ogg",
+    "gong-2.ogg",
+    "gong-3.ogg"
+   ],
+   "v": 0.55
+  },
+  "drum": {
+   "f": [
+    "drum-1.ogg",
+    "drum-2.ogg",
+    "drum-3.ogg"
+   ],
+   "v": 0.6
+  },
+  "warHorn": {
+   "f": [
+    "warHorn-1.ogg",
+    "warHorn-2.ogg"
+   ],
+   "v": 0.6
+  },
+  "flute": {
+   "f": [
+    "flute-1.ogg"
+   ],
+   "v": 0.4
+  },
+  "chime": {
+   "f": [
+    "chime-1.ogg",
+    "chime-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "dig": {
+   "f": [
+    "dig-1.ogg",
+    "dig-2.ogg"
+   ],
+   "v": 0.5
+  },
+  "plant": {
+   "f": [
+    "plant-1.ogg",
+    "plant-2.ogg",
+    "plant-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "water": {
+   "f": [
+    "water-1.ogg",
+    "water-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "harvest": {
+   "f": [
+    "harvest-1.ogg",
+    "harvest-2.ogg",
+    "harvest-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "chicken": {
+   "f": [
+    "chicken-1.ogg",
+    "chicken-2.ogg",
+    "chicken-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "rooster": {
+   "f": [
+    "rooster-1.ogg",
+    "rooster-2.ogg"
+   ],
+   "v": 0.5
+  },
+  "cow": {
+   "f": [
+    "cow-1.ogg",
+    "cow-2.ogg",
+    "cow-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "pig": {
+   "f": [
+    "pig-1.ogg",
+    "pig-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "sheep": {
+   "f": [
+    "sheep-1.ogg",
+    "sheep-2.ogg",
+    "sheep-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "goat": {
+   "f": [
+    "goat-1.ogg",
+    "goat-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "duck": {
+   "f": [
+    "duck-1.ogg",
+    "duck-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "horse": {
+   "f": [
+    "horse-1.ogg",
+    "horse-2.ogg",
+    "horse-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "horseSnort": {
+   "f": [
+    "horseSnort-1.ogg",
+    "horseSnort-2.ogg",
+    "horseSnort-3.ogg"
+   ],
+   "v": 0.45
+  },
+  "cat": {
+   "f": [
+    "cat-1.ogg",
+    "cat-2.ogg",
+    "cat-3.ogg"
+   ],
+   "v": 0.4
+  },
+  "thunder": {
+   "f": [
+    "thunder-1.ogg",
+    "thunder-2.ogg"
+   ],
+   "v": 0.6
+  },
+  "splash": {
+   "f": [
+    "splash-1.ogg",
+    "splash-2.ogg",
+    "splash-3.ogg",
+    "splash-4.ogg"
+   ],
+   "v": 0.5
+  },
+  "bigSplash": {
+   "f": [
+    "bigSplash-1.ogg",
+    "bigSplash-2.ogg",
+    "bigSplash-3.ogg"
+   ],
+   "v": 0.6
+  },
+  "drip": {
+   "f": [
+    "drip-1.ogg",
+    "drip-2.ogg",
+    "drip-3.ogg"
+   ],
+   "v": 0.35
+  },
+  "ignite": {
+   "f": [
+    "ignite-1.ogg",
+    "ignite-2.ogg",
+    "ignite-3.ogg"
+   ],
+   "v": 0.5
+  },
+  "shipHit": {
+   "f": [
+    "shipHit-1.ogg"
+   ],
+   "v": 0.65
+  },
+  "shipSink": {
+   "f": [
+    "shipSink-1.ogg"
+   ],
+   "v": 0.6
+  }
+ },
+ "loops": {
+  "typing": {
+   "f": [
+    "typing-1.ogg"
+   ],
+   "v": 0.35
+  },
+  "fuse": {
+   "f": [
+    "fuse-1.ogg"
+   ],
+   "v": 0.4
+  },
+  "bird": {
+   "f": [
+    "bird-1.ogg",
+    "bird-2.ogg"
+   ],
+   "v": 0.3
+  },
+  "crickets": {
+   "f": [
+    "crickets-1.ogg",
+    "crickets-2.ogg"
+   ],
+   "v": 0.3
+  },
+  "cicada": {
+   "f": [
+    "cicada-1.ogg",
+    "cicada-2.ogg"
+   ],
+   "v": 0.3
+  },
+  "breath": {
+   "f": [
+    "breath-1.ogg",
+    "breath-2.ogg"
+   ],
+   "v": 0.35
+  },
+  "heartbeat": {
+   "f": [
+    "heartbeat-1.ogg",
+    "heartbeat-2.ogg"
+   ],
+   "v": 0.5
+  },
+  "crowd": {
+   "f": [
+    "crowd-1.ogg",
+    "crowd-2.ogg"
+   ],
+   "v": 0.3
+  },
+  "siren": {
+   "f": [
+    "siren-1.ogg"
+   ],
+   "v": 0.4
+  },
+  "heli": {
+   "f": [
+    "heli-1.ogg",
+    "heli-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "tractor": {
+   "f": [
+    "tractor-1.ogg",
+    "tractor-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "rowing": {
+   "f": [
+    "rowing-1.ogg"
+   ],
+   "v": 0.4
+  },
+  "saw": {
+   "f": [
+    "saw-1.ogg",
+    "saw-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "warDrums": {
+   "f": [
+    "warDrums-1.ogg"
+   ],
+   "v": 0.45
+  },
+  "waterLoop": {
+   "f": [
+    "waterLoop-1.ogg",
+    "waterLoop-2.ogg"
+   ],
+   "v": 0.35
+  },
+  "gallop": {
+   "f": [
+    "gallop-1.ogg",
+    "gallop-2.ogg"
+   ],
+   "v": 0.45
+  },
+  "trot": {
+   "f": [
+    "trot-1.ogg",
+    "trot-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "rain": {
+   "f": [
+    "rain-1.ogg",
+    "rain-2.ogg"
+   ],
+   "v": 0.35
+  },
+  "wind": {
+   "f": [
+    "wind-1.ogg",
+    "wind-2.ogg"
+   ],
+   "v": 0.3
+  },
+  "stormWind": {
+   "f": [
+    "stormWind-1.ogg",
+    "stormWind-2.ogg"
+   ],
+   "v": 0.35
+  },
+  "stream": {
+   "f": [
+    "stream-1.ogg",
+    "stream-2.ogg"
+   ],
+   "v": 0.3
+  },
+  "waves": {
+   "f": [
+    "waves-1.ogg",
+    "waves-2.ogg"
+   ],
+   "v": 0.35
+  },
+  "bubbles": {
+   "f": [
+    "bubbles-1.ogg"
+   ],
+   "v": 0.35
+  },
+  "campfire": {
+   "f": [
+    "campfire-1.ogg",
+    "campfire-2.ogg"
+   ],
+   "v": 0.35
+  },
+  "blaze": {
+   "f": [
+    "blaze-1.ogg",
+    "blaze-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "spray": {
+   "f": [
+    "spray-1.ogg",
+    "spray-2.ogg"
+   ],
+   "v": 0.4
+  },
+  "earthquake": {
+   "f": [
+    "earthquake-1.ogg"
+   ],
+   "v": 0.45
+  },
+  "clock": {
+   "f": [
+    "clock-1.ogg"
+   ],
+   "v": 0.3
+  },
+  "nightAmb": {
+   "f": [
+    "nightAmb-1.ogg"
+   ],
+   "v": 0.3
+  },
+  "office": {
+   "f": [
+    "office-1.ogg",
+    "office-2.ogg"
+   ],
+   "v": 0.25
   }
  }
 }

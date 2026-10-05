@@ -1,0 +1,3335 @@
+{
+ "tick": {
+  "cat": "ui",
+  "ko": "커서 이동·딸깍",
+  "games": [
+   "tower",
+   "gdi",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "tick_001.ogg",
+   "tick_002.ogg",
+   "tick_004.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "ok": {
+  "cat": "ui",
+  "ko": "확인",
+  "games": [
+   "tower",
+   "gdi",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "select_001.ogg",
+   "select_002.ogg",
+   "select_007.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "cancel": {
+  "cat": "ui",
+  "ko": "취소·뒤로",
+  "games": [
+   "tower",
+   "gdi",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "cancel-1.ogg",
+   "cancel-2.ogg",
+   "cancel-3.ogg"
+  ],
+  "src": [
+   "x_kenney-interface-sounds\\Audio\\back_001.ogg",
+   "x_kenney-interface-sounds\\Audio\\back_002.ogg",
+   "x_kenney-interface-sounds\\Audio\\back_003.ogg"
+  ]
+ },
+ "error": {
+  "cat": "ui",
+  "ko": "안 됨·잘못",
+  "games": [
+   "tower",
+   "gdi",
+   "sagukji",
+   "farmstory",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "error-1.ogg",
+   "error-2.ogg",
+   "error-3.ogg"
+  ],
+  "src": [
+   "x_kenney-interface-sounds\\Audio\\error_001.ogg",
+   "x_kenney-interface-sounds\\Audio\\error_002.ogg",
+   "x_kenney-interface-sounds\\Audio\\error_003.ogg"
+  ]
+ },
+ "open": {
+  "cat": "ui",
+  "ko": "창 열기",
+  "games": [
+   "tower",
+   "gdi",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "open_002.ogg",
+   "open_003.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "close": {
+  "cat": "ui",
+  "ko": "창 닫기",
+  "games": [
+   "tower",
+   "gdi",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "close_002.ogg",
+   "close_003.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "talk": {
+  "cat": "ui",
+  "ko": "대사 넘김",
+  "games": [
+   "tower",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "click_002.ogg",
+   "click_003.ogg",
+   "click_004.ogg",
+   "click_005.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "hover": {
+  "cat": "ui",
+  "ko": "카드·단추에 올림",
+  "games": [
+   "dawn",
+   "gdi",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "hover-1.ogg",
+   "hover-2.ogg",
+   "hover-3.ogg"
+  ],
+  "src": [
+   "x_kenney-ui-audio\\Audio\\rollover1.ogg",
+   "x_kenney-ui-audio\\Audio\\rollover2.ogg",
+   "x_kenney-ui-audio\\Audio\\rollover3.ogg"
+  ]
+ },
+ "toggle": {
+  "cat": "ui",
+  "ko": "켜고 끄기 스위치",
+  "games": [
+   "dawn",
+   "gdi",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "toggle-1.ogg",
+   "toggle-2.ogg",
+   "toggle-3.ogg"
+  ],
+  "src": [
+   "x_kenney-interface-sounds\\Audio\\switch_001.ogg",
+   "x_kenney-interface-sounds\\Audio\\switch_002.ogg",
+   "x_kenney-interface-sounds\\Audio\\switch_003.ogg"
+  ]
+ },
+ "ding": {
+  "cat": "ui",
+  "ko": "알림 띵",
+  "games": [
+   "tower",
+   "gdi",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "bong_001.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "levelup": {
+  "cat": "ui",
+  "ko": "레벨 업·좋은 일",
+  "games": [
+   "tower",
+   "grandprix",
+   "dawn",
+   "gdi",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "confirmation_002.ogg",
+   "confirmation_004.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "clear": {
+  "cat": "ui",
+  "ko": "판 깨기",
+  "games": [
+   "tower",
+   "grandprix",
+   "dawn",
+   "gdi",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "confirmation_001.ogg",
+   "confirmation_003.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "combo": {
+  "cat": "ui",
+  "ko": "연계 성공",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "select_003.ogg",
+   "select_004.ogg",
+   "select_005.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "page": {
+  "cat": "ui",
+  "ko": "책장 넘김·문서",
+  "games": [
+   "gdi",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "page-1.ogg",
+   "page-2.ogg",
+   "page-3.ogg"
+  ],
+  "src": [
+   "x_kenney-rpg-audio\\Audio\\bookFlip1.ogg",
+   "x_kenney-rpg-audio\\Audio\\bookFlip2.ogg",
+   "x_kenney-rpg-audio\\Audio\\bookFlip3.ogg"
+  ]
+ },
+ "paper": {
+  "cat": "ui",
+  "ko": "종이 구김·서류 정리",
+  "games": [
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "paper-1.ogg",
+   "paper-2.ogg",
+   "paper-3.ogg"
+  ],
+  "src": [
+   "x_owlish/Paper\\crumples1.wav",
+   "x_owlish/Paper\\crumples2.wav",
+   "x_100-cc0-sfx\\paper_01.ogg"
+  ]
+ },
+ "write": {
+  "cat": "ui",
+  "ko": "펜·붓으로 쓰기",
+  "games": [
+   "gdi",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "write-1.ogg",
+   "write-2.ogg"
+  ],
+  "src": [
+   "x_owlish/Paper\\pencil-scratch-1.wav",
+   "x_owlish/Paper\\pencil-scratch-2.wav"
+  ]
+ },
+ "stamp": {
+  "cat": "ui",
+  "ko": "도장 쾅",
+  "games": [
+   "gdi",
+   "sagukji",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "stamp-1.ogg",
+   "stamp-2.ogg",
+   "stamp-3.ogg"
+  ],
+  "src": [
+   "x_kenney-impact-sounds\\Audio\\impactWood_heavy_000.ogg",
+   "x_kenney-impact-sounds\\Audio\\impactWood_heavy_001.ogg",
+   "x_kenney-impact-sounds\\Audio\\impactWood_heavy_002.ogg"
+  ]
+ },
+ "coin": {
+  "cat": "ui",
+  "ko": "돈 받기(짤랑)",
+  "games": [
+   "tower",
+   "farmstory",
+   "gdi",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "coin-1.ogg",
+   "coin-2.ogg",
+   "coin-3.ogg"
+  ],
+  "src": [
+   "x_rpg_sound_pack\\RPG Sound Pack\\inventory\\coin.wav",
+   "x_rpg_sound_pack\\RPG Sound Pack\\inventory\\coin2.wav",
+   "x_rpg_sound_pack\\RPG Sound Pack\\inventory\\coin3.wav"
+  ]
+ },
+ "gold": {
+  "cat": "ui",
+  "ko": "골드 줍기",
+  "games": [
+   "tower",
+   "grandprix"
+  ],
+  "kind": "one",
+  "files": [
+   "item_coins_01.ogg",
+   "item_coins_02.ogg",
+   "item_coins_03.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "buy": {
+  "cat": "ui",
+  "ko": "사고팔기(계산대)",
+  "games": [
+   "farmstory",
+   "sagukji",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "buy-1.ogg",
+   "buy-2.ogg"
+  ],
+  "src": [
+   "B:2531#1",
+   "B:2533#1"
+  ]
+ },
+ "pickup": {
+  "cat": "ui",
+  "ko": "물건 줍기",
+  "games": [
+   "tower",
+   "dawn",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "item_misc_01.ogg",
+   "item_misc_02.ogg",
+   "item_misc_03.ogg",
+   "item_misc_04.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "equip": {
+  "cat": "ui",
+  "ko": "장비 끼우기",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "metalLatch.ogg",
+   "beltHandle1.ogg",
+   "item_gem_01.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "unlock": {
+  "cat": "ui",
+  "ko": "열림·해금",
+  "games": [
+   "dawn",
+   "tower",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "unlock-1.ogg",
+   "unlock-2.ogg"
+  ],
+  "src": [
+   "x_door-lock-sounds\\DoorLockSounds\\UnlockDoor.wav",
+   "x_100-cc0-metal-and-wood-sfx\\lock_open_01.ogg"
+  ]
+ },
+ "type": {
+  "cat": "ui",
+  "ko": "타자(한 번)",
+  "games": [
+   "gdi",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "type-1.ogg",
+   "type-2.ogg",
+   "type-3.ogg",
+   "type-4.ogg"
+  ],
+  "src": [
+   "x_keyboard-soundpack-1-typing-and-single-keystrokes\\Single Keys\\keypress-001.wav",
+   "x_keyboard-soundpack-1-typing-and-single-keystrokes\\Single Keys\\keypress-002.wav",
+   "x_keyboard-soundpack-1-typing-and-single-keystrokes\\Single Keys\\keypress-003.wav",
+   "x_keyboard-soundpack-1-typing-and-single-keystrokes\\Single Keys\\keypress-004.wav"
+  ]
+ },
+ "typing": {
+  "cat": "ui",
+  "ko": "타자 치는 소리(반복)",
+  "games": [
+   "gdi"
+  ],
+  "kind": "loop",
+  "files": [
+   "typing-1.ogg"
+  ],
+  "src": [
+   "x_keyboard-soundpack-1-typing-and-single-keystrokes\\Generated Typing\\generated-004_medium.wav"
+  ]
+ },
+ "typewriter": {
+  "cat": "ui",
+  "ko": "타자기(무전 글자)",
+  "games": [
+   "dawn",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "typewriter-1.ogg",
+   "typewriter-2.ogg",
+   "typewriter-3.ogg",
+   "typewriter-4.ogg"
+  ],
+  "src": [
+   "x_typewriter-sounds\\typewriter1.wav",
+   "x_typewriter-sounds\\typewriter2.wav",
+   "x_typewriter-sounds\\typewriter3.wav",
+   "x_typewriter-sounds\\typewriter4.wav"
+  ]
+ },
+ "phone": {
+  "cat": "ui",
+  "ko": "전화벨",
+  "games": [
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "phone-1.ogg",
+   "phone-2.ogg"
+  ],
+  "src": [
+   "B:0253",
+   "B:0250"
+  ]
+ },
+ "message": {
+  "cat": "ui",
+  "ko": "메시지 도착",
+  "games": [
+   "gdi",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "message-1.ogg",
+   "message-2.ogg"
+  ],
+  "src": [
+   "B:1111#1",
+   "x_modern-ringtone-chirptone\\chirptone.wav"
+  ]
+ },
+ "alarm": {
+  "cat": "ui",
+  "ko": "경보·위험",
+  "games": [
+   "dawn",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "alarm-1.ogg",
+   "alarm-2.ogg"
+  ],
+  "src": [
+   "B:0173",
+   "B:1586"
+  ]
+ },
+ "swing": {
+  "cat": "melee",
+  "ko": "휘두르기",
+  "games": [
+   "tower",
+   "dawn",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "blade_01.ogg",
+   "blade_02.ogg",
+   "blade_03.ogg",
+   "knifeSlice.ogg",
+   "knifeSlice2.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "hit": {
+  "cat": "melee",
+  "ko": "때림",
+  "games": [
+   "tower",
+   "grandprix",
+   "dawn",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "impactPunch_medium_000.ogg",
+   "impactPunch_medium_001.ogg",
+   "impactPunch_medium_002.ogg",
+   "impactPunch_medium_003.ogg",
+   "impactPunch_medium_004.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "hitCrit": {
+  "cat": "melee",
+  "ko": "치명타",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "impactPunch_heavy_000.ogg",
+   "impactPunch_heavy_001.ogg",
+   "impactPunch_heavy_002.ogg",
+   "impactPunch_heavy_003.ogg",
+   "impactPunch_heavy_004.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "hurt": {
+  "cat": "melee",
+  "ko": "내가 맞음",
+  "games": [
+   "tower",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "impactSoft_heavy_000.ogg",
+   "impactSoft_heavy_001.ogg",
+   "impactSoft_heavy_002.ogg",
+   "impactSoft_heavy_003.ogg",
+   "impactSoft_heavy_004.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "dodge": {
+  "cat": "melee",
+  "ko": "구르기·피하기",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "cloth1.ogg",
+   "cloth2.ogg",
+   "cloth3.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "clash": {
+  "cat": "melee",
+  "ko": "칼끼리 부딪힘",
+  "games": [
+   "tower",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "clash-1.ogg",
+   "clash-2.ogg",
+   "clash-3.ogg",
+   "clash-4.ogg"
+  ],
+  "src": [
+   "x_20-sword-sound-effects-attacks-and-clashes\\sword_clash.1.ogg",
+   "x_20-sword-sound-effects-attacks-and-clashes\\sword_clash.2.ogg",
+   "x_20-sword-sound-effects-attacks-and-clashes\\sword_clash.3.ogg",
+   "x_20-sword-sound-effects-attacks-and-clashes\\sword_clash.4.ogg"
+  ]
+ },
+ "slash": {
+  "cat": "melee",
+  "ko": "베는 소리(살)",
+  "games": [
+   "tower",
+   "sagukji",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "slash-1.ogg",
+   "slash-2.ogg",
+   "slash-3.ogg"
+  ],
+  "src": [
+   "B:0127",
+   "x_kenney-rpg-audio\\Audio\\knifeSlice.ogg",
+   "x_kenney-rpg-audio\\Audio\\knifeSlice2.ogg"
+  ]
+ },
+ "stab": {
+  "cat": "melee",
+  "ko": "찌르기",
+  "games": [
+   "tower",
+   "sagukji",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "stab-1.ogg",
+   "stab-2.ogg",
+   "stab-3.ogg"
+  ],
+  "src": [
+   "x_kenney-rpg-audio\\Audio\\drawKnife1.ogg",
+   "x_kenney-rpg-audio\\Audio\\drawKnife2.ogg",
+   "x_kenney-rpg-audio\\Audio\\drawKnife3.ogg"
+  ]
+ },
+ "blunt": {
+  "cat": "melee",
+  "ko": "둔기 퍽(배트·몽둥이)",
+  "games": [
+   "dawn",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "blunt-1.ogg",
+   "blunt-2.ogg",
+   "blunt-3.ogg"
+  ],
+  "src": [
+   "x_kenney-impact-sounds\\Audio\\impactPunch_heavy_000.ogg",
+   "x_kenney-impact-sounds\\Audio\\impactPunch_heavy_001.ogg",
+   "x_kenney-impact-sounds\\Audio\\impactPunch_heavy_002.ogg"
+  ]
+ },
+ "clang": {
+  "cat": "melee",
+  "ko": "쇠 때림(프라이팬·방패)",
+  "games": [
+   "dawn",
+   "tower",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "clang-1.ogg",
+   "clang-2.ogg",
+   "clang-3.ogg"
+  ],
+  "src": [
+   "x_kenney-impact-sounds\\Audio\\impactPlate_heavy_000.ogg",
+   "x_kenney-impact-sounds\\Audio\\impactPlate_heavy_001.ogg",
+   "x_kenney-impact-sounds\\Audio\\impactPlate_heavy_002.ogg"
+  ]
+ },
+ "block": {
+  "cat": "melee",
+  "ko": "방패로 막음",
+  "games": [
+   "tower",
+   "sagukji",
+   "grandprix"
+  ],
+  "kind": "one",
+  "files": [
+   "block-1.ogg",
+   "block-2.ogg",
+   "block-3.ogg"
+  ],
+  "src": [
+   "x_10-impactshield-blocks\\impact.1.ogg",
+   "x_10-impactshield-blocks\\impact.2.ogg",
+   "x_10-impactshield-blocks\\impact.3.ogg"
+  ]
+ },
+ "chop": {
+  "cat": "melee",
+  "ko": "도끼질·장작 패기",
+  "games": [
+   "dawn",
+   "farmstory",
+   "sagukji",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "chop-1.ogg"
+  ],
+  "src": [
+   "x_kenney-rpg-audio\\Audio\\chop.ogg"
+  ]
+ },
+ "unsheathe": {
+  "cat": "melee",
+  "ko": "칼 뽑기",
+  "games": [
+   "sagukji",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "unsheathe-1.ogg",
+   "unsheathe-2.ogg",
+   "unsheathe-3.ogg"
+  ],
+  "src": [
+   "x_rpg_sound_pack\\RPG Sound Pack\\battle\\sword-unsheathe2.wav",
+   "x_rpg_sound_pack\\RPG Sound Pack\\battle\\sword-unsheathe3.wav",
+   "x_rpg_sound_pack\\RPG Sound Pack\\battle\\sword-unsheathe.wav"
+  ]
+ },
+ "punch": {
+  "cat": "melee",
+  "ko": "맨주먹",
+  "games": [
+   "dawn",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "punch-1.ogg",
+   "punch-2.ogg",
+   "punch-3.ogg"
+  ],
+  "src": [
+   "B:2460",
+   "B:2464",
+   "B:2466"
+  ]
+ },
+ "bodyfall": {
+  "cat": "melee",
+  "ko": "쓰러짐(몸)",
+  "games": [
+   "dawn",
+   "sagukji",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "bodyfall-1.ogg",
+   "bodyfall-2.ogg",
+   "bodyfall-3.ogg"
+  ],
+  "src": [
+   "B:2452",
+   "B:2453",
+   "B:2454"
+  ]
+ },
+ "bow": {
+  "cat": "ranged",
+  "ko": "활 쏘기(시위)",
+  "games": [
+   "tower",
+   "sagukji",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "bow-1.ogg",
+   "bow-2.ogg"
+  ],
+  "src": [
+   "B:0549",
+   "x_battle_sound_effects_0\\battle_sound_effects\\Bow.wav"
+  ]
+ },
+ "arrowHit": {
+  "cat": "ranged",
+  "ko": "화살 박힘",
+  "games": [
+   "tower",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "arrowHit-1.ogg",
+   "arrowHit-2.ogg",
+   "arrowHit-3.ogg"
+  ],
+  "src": [
+   "B:0548#1",
+   "x_kenney-impact-sounds\\Audio\\impactWood_light_000.ogg",
+   "x_kenney-impact-sounds\\Audio\\impactWood_light_001.ogg"
+  ]
+ },
+ "whoosh": {
+  "cat": "ranged",
+  "ko": "휙(던지기·날아감)",
+  "games": [
+   "tower",
+   "dawn",
+   "grandprix",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "whoosh-1.ogg",
+   "whoosh-2.ogg",
+   "whoosh-3.ogg"
+  ],
+  "src": [
+   "B:1795",
+   "B:1798",
+   "B:1801"
+  ]
+ },
+ "quiver": {
+  "cat": "ranged",
+  "ko": "화살 뽑기",
+  "games": [
+   "tower",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "quiver-1.ogg",
+   "quiver-2.ogg",
+   "quiver-3.ogg"
+  ],
+  "src": [
+   "x_fantasy-weapons-and-apparel-sfx-library\\sfx\\arrow-grab-from-quiver-01.wav",
+   "x_fantasy-weapons-and-apparel-sfx-library\\sfx\\arrow-grab-from-quiver-02.wav",
+   "x_fantasy-weapons-and-apparel-sfx-library\\sfx\\arrow-grab-from-quiver-03.wav"
+  ]
+ },
+ "crossbow": {
+  "cat": "ranged",
+  "ko": "석궁",
+  "games": [
+   "dawn",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "crossbow-1.ogg",
+   "crossbow-2.ogg"
+  ],
+  "src": [
+   "x_gun-reload-sounds\\shotguncock_0.wav",
+   "B:0549"
+  ]
+ },
+ "throw": {
+  "cat": "ranged",
+  "ko": "던지기(가벼운 것)",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "throw-1.ogg",
+   "throw-2.ogg",
+   "throw-3.ogg"
+  ],
+  "src": [
+   "x_battle_sound_effects_0\\battle_sound_effects\\swish_2.wav",
+   "x_battle_sound_effects_0\\battle_sound_effects\\swish_3.wav",
+   "x_battle_sound_effects_0\\battle_sound_effects\\swish_4.wav"
+  ]
+ },
+ "pistol": {
+  "cat": "gun",
+  "ko": "권총",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "pistol-1.ogg",
+   "pistol-2.ogg",
+   "pistol-3.ogg"
+  ],
+  "src": [
+   "B:0437#1",
+   "x_gunshots/22 Pistol.wav",
+   "x_gunshots/22 Magnum.wav"
+  ]
+ },
+ "revolver": {
+  "cat": "gun",
+  "ko": "리볼버",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "revolver-1.ogg",
+   "revolver-2.ogg"
+  ],
+  "src": [
+   "B:0438#1",
+   "x_gunshot-sounds\\sounds\\cz.wav#1"
+  ]
+ },
+ "shotgun": {
+  "cat": "gun",
+  "ko": "산탄총",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "shotgun-1.ogg",
+   "shotgun-2.ogg",
+   "shotgun-3.ogg"
+  ],
+  "src": [
+   "B:0532#1",
+   "B:0532#2",
+   "x_gunshot-sounds\\sounds\\shotty.wav"
+  ]
+ },
+ "pump": {
+  "cat": "gun",
+  "ko": "산탄총 장전(펌프)",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "pump-1.ogg",
+   "pump-2.ogg"
+  ],
+  "src": [
+   "x_gun-reload-sounds\\shotguncock_0.wav",
+   "B:1987"
+  ]
+ },
+ "rifle": {
+  "cat": "gun",
+  "ko": "사냥총·소총",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "rifle-1.ogg",
+   "rifle-2.ogg",
+   "rifle-3.ogg"
+  ],
+  "src": [
+   "B:2853",
+   "B:2854",
+   "B:0397#1"
+  ]
+ },
+ "smg": {
+  "cat": "gun",
+  "ko": "기관단총(연사)",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "smg-1.ogg",
+   "smg-2.ogg"
+  ],
+  "src": [
+   "x_gunshot-sounds\\sounds\\sks.wav#1",
+   "x_gunshot-sounds\\sounds\\mosin.wav#1"
+  ]
+ },
+ "silenced": {
+  "cat": "gun",
+  "ko": "소음기 총",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "silenced-1.ogg",
+   "silenced-2.ogg",
+   "silenced-3.ogg"
+  ],
+  "src": [
+   "x_hollywood-style-pistol-silencer-sound-effect\\silencer.wav",
+   "x_25-cc0-bang-firework-sfx\\shot_01.ogg",
+   "x_25-cc0-bang-firework-sfx\\shot_02.ogg"
+  ]
+ },
+ "reload": {
+  "cat": "gun",
+  "ko": "재장전",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "reload-1.ogg",
+   "reload-2.ogg",
+   "reload-3.ogg"
+  ],
+  "src": [
+   "x_2-gun-reloads\\gun_reload.1.ogg",
+   "x_2-gun-reloads\\gun_reload.2.ogg",
+   "x_gun-reload-sounds\\gunreload1.wav"
+  ]
+ },
+ "dryfire": {
+  "cat": "gun",
+  "ko": "탄 없음 철컥",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "dryfire-1.ogg",
+   "dryfire-2.ogg"
+  ],
+  "src": [
+   "B:1994",
+   "B:1995"
+  ]
+ },
+ "explosion": {
+  "cat": "boom",
+  "ko": "폭발",
+  "games": [
+   "tower",
+   "grandprix",
+   "dawn",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "explosion-1.ogg",
+   "explosion-2.ogg",
+   "explosion-3.ogg",
+   "explosion-4.ogg"
+  ],
+  "src": [
+   "x_25-cc0-bang-firework-sfx\\bang_01.ogg",
+   "x_25-cc0-bang-firework-sfx\\bang_02.ogg",
+   "x_25-cc0-bang-firework-sfx\\bang_03.ogg",
+   "x_25-cc0-bang-firework-sfx\\bang_04.ogg"
+  ]
+ },
+ "explosionFar": {
+  "cat": "boom",
+  "ko": "먼 폭발",
+  "games": [
+   "dawn",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "explosionFar-1.ogg",
+   "explosionFar-2.ogg"
+  ],
+  "src": [
+   "B:1806",
+   "B:1023"
+  ]
+ },
+ "cannon": {
+  "cat": "boom",
+  "ko": "대포·투석기 발사",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "cannon-1.ogg",
+   "cannon-2.ogg",
+   "cannon-3.ogg"
+  ],
+  "src": [
+   "x_25-cc0-bang-firework-sfx\\cannon_01.ogg",
+   "x_25-cc0-bang-firework-sfx\\cannon_02.ogg",
+   "x_25-cc0-bang-firework-sfx\\cannon_03.ogg"
+  ]
+ },
+ "firecracker": {
+  "cat": "boom",
+  "ko": "폭죽",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "firecracker-1.ogg",
+   "firecracker-2.ogg",
+   "firecracker-3.ogg"
+  ],
+  "src": [
+   "B:1137",
+   "B:1140",
+   "x_25-cc0-bang-firework-sfx\\fw_01.ogg"
+  ]
+ },
+ "fuse": {
+  "cat": "boom",
+  "ko": "도화선 치익",
+  "games": [
+   "dawn",
+   "tower"
+  ],
+  "kind": "loop",
+  "files": [
+   "fuse-1.ogg"
+  ],
+  "src": [
+   "B:1306"
+  ]
+ },
+ "glassBreak": {
+  "cat": "boom",
+  "ko": "유리 깨짐(화염병·창문)",
+  "games": [
+   "dawn",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "glassBreak-1.ogg",
+   "glassBreak-2.ogg",
+   "glassBreak-3.ogg"
+  ],
+  "src": [
+   "x_sfx_breaking_and_falling\\bfh1_glass_breaking_01.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_glass_breaking_02.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_glass_breaking_03.ogg"
+  ]
+ },
+ "magic": {
+  "cat": "magic",
+  "ko": "마법 쏘기(비전)",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "magic-1.ogg",
+   "magic-2.ogg",
+   "magic-3.ogg"
+  ],
+  "src": [
+   "x_magic-spell-sfx\\magical_2.ogg",
+   "x_magic-spell-sfx\\magical_3.ogg",
+   "x_magic-spell-sfx\\magical_4.ogg"
+  ]
+ },
+ "holy": {
+  "cat": "magic",
+  "ko": "신성·빛",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "holy-1.ogg",
+   "holy-2.ogg",
+   "holy-3.ogg"
+  ],
+  "src": [
+   "x_cure-magic\\Cure2.wav",
+   "x_cure-magic\\Cure3.wav",
+   "x_cure-magic\\Cure4.wav"
+  ]
+ },
+ "heal": {
+  "cat": "magic",
+  "ko": "회복",
+  "games": [
+   "tower",
+   "dawn",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "heal-1.ogg",
+   "heal-2.ogg",
+   "heal-3.ogg"
+  ],
+  "src": [
+   "x_cure-magic\\Cure5.wav",
+   "x_cure-magic\\Cure6.wav",
+   "x_cure-magic\\Cure7.wav"
+  ]
+ },
+ "buff": {
+  "cat": "magic",
+  "ko": "강화(버프)",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "buff-1.ogg",
+   "buff-2.ogg",
+   "buff-3.ogg"
+  ],
+  "src": [
+   "x_magic-spell-sfx\\magical_5.ogg",
+   "x_magic-spell-sfx\\magical_6_0.ogg",
+   "x_magic-spell-sfx\\magical_7_0.ogg"
+  ]
+ },
+ "fire": {
+  "cat": "magic",
+  "ko": "불 마법",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "spell_fire_01.ogg",
+   "spell_fire_02.ogg",
+   "spell_fire_05.ogg",
+   "spell_fire_06.ogg",
+   "spell_fire_07.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "frost": {
+  "cat": "magic",
+  "ko": "얼음",
+  "games": [
+   "tower",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "frost-1.ogg",
+   "frost-2.ogg",
+   "frost-3.ogg"
+  ],
+  "src": [
+   "B:2205",
+   "B:2206",
+   "B:2208"
+  ]
+ },
+ "bolt": {
+  "cat": "magic",
+  "ko": "번개",
+  "games": [
+   "tower",
+   "grandprix"
+  ],
+  "kind": "one",
+  "files": [
+   "spell_01.ogg",
+   "spell_02.ogg",
+   "chain_01.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "zap": {
+  "cat": "magic",
+  "ko": "전기 찌릿(테이저·전기 울타리)",
+  "games": [
+   "dawn",
+   "tower",
+   "grandprix"
+  ],
+  "kind": "one",
+  "files": [
+   "zap-1.ogg",
+   "zap-2.ogg",
+   "zap-3.ogg"
+  ],
+  "src": [
+   "x_tinysized\\sfx-cc0\\paralyzer-discharge-01.wav",
+   "x_tinysized\\sfx-cc0\\paralyzer-discharge-02.wav",
+   "B:1252#1"
+  ]
+ },
+ "poison": {
+  "cat": "magic",
+  "ko": "독·산(부글)",
+  "games": [
+   "tower",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "poison-1.ogg",
+   "poison-2.ogg",
+   "poison-3.ogg"
+  ],
+  "src": [
+   "x_40-cc0-water-splash-slime-sfx\\bubble_01.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\bubble_02.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\bubble_03.ogg"
+  ]
+ },
+ "blink": {
+  "cat": "magic",
+  "ko": "순간이동·그림자",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "blink-1.ogg",
+   "blink-2.ogg",
+   "blink-3.ogg"
+  ],
+  "src": [
+   "x_rpg_sound_pack\\RPG Sound Pack\\NPC\\shade\\shade1.wav",
+   "x_rpg_sound_pack\\RPG Sound Pack\\NPC\\shade\\shade2.wav",
+   "x_rpg_sound_pack\\RPG Sound Pack\\NPC\\shade\\shade3.wav"
+  ]
+ },
+ "awaken": {
+  "cat": "magic",
+  "ko": "각성기",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "spell_01.ogg",
+   "spell_02.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "shield": {
+  "cat": "magic",
+  "ko": "보호막 켜짐",
+  "games": [
+   "tower",
+   "grandprix"
+  ],
+  "kind": "one",
+  "files": [
+   "shield-1.ogg",
+   "shield-2.ogg"
+  ],
+  "src": [
+   "x_sci-fi-aliens-and-cows-pack\\qubodup-sci-fi-cow-alien-soundpack\\beam-up.wav",
+   "x_magic-spell-sfx/magical_1_0.ogg"
+  ]
+ },
+ "regress": {
+  "cat": "magic",
+  "ko": "회귀(시간이 감긴다)",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "regress-1.ogg"
+  ],
+  "src": [
+   "x_sci-fi-aliens-and-cows-pack\\qubodup-sci-fi-cow-alien-soundpack\\beam-wowow.wav"
+  ]
+ },
+ "die": {
+  "cat": "creature",
+  "ko": "몬스터 죽음",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "creature_hurt_01.ogg",
+   "creature_hurt_02.ogg",
+   "creature_misc_01.ogg",
+   "creature_misc_05.ogg",
+   "creature_monster_01.ogg",
+   "creature_monster_02.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "boss": {
+  "cat": "creature",
+  "ko": "보스 포효",
+  "games": [
+   "tower",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "creature_roar_01.ogg",
+   "creature_roar_02.ogg",
+   "creature_roar_03.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "zombie": {
+  "cat": "creature",
+  "ko": "좀비 신음",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "zombie-1.ogg",
+   "zombie-2.ogg",
+   "zombie-3.ogg",
+   "zombie-4.ogg",
+   "zombie-5.ogg"
+  ],
+  "src": [
+   "x_zombies-sound-pack\\zombies\\zombie-16.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-17.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-18.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-19.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-20.wav"
+  ]
+ },
+ "zombieAttack": {
+  "cat": "creature",
+  "ko": "좀비 공격·물기",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "zombieAttack-1.ogg",
+   "zombieAttack-2.ogg",
+   "zombieAttack-3.ogg",
+   "zombieAttack-4.ogg"
+  ],
+  "src": [
+   "x_zombies-sound-pack\\zombies\\zombie-1.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-2.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-3.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-4.wav"
+  ]
+ },
+ "zombieDie": {
+  "cat": "creature",
+  "ko": "좀비 쓰러짐",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "zombieDie-1.ogg",
+   "zombieDie-2.ogg",
+   "zombieDie-3.ogg",
+   "zombieDie-4.ogg"
+  ],
+  "src": [
+   "x_zombies-sound-pack\\zombies\\zombie-10.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-11.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-12.wav",
+   "x_zombies-sound-pack\\zombies\\zombie-13.wav"
+  ]
+ },
+ "scream": {
+  "cat": "creature",
+  "ko": "비명",
+  "games": [
+   "dawn",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "scream-1.ogg",
+   "scream-2.ogg",
+   "scream-3.ogg"
+  ],
+  "src": [
+   "B:3591",
+   "B:0477",
+   "x_80-cc0-creature-sfx\\scream_01.ogg"
+  ]
+ },
+ "monster": {
+  "cat": "creature",
+  "ko": "괴물 울음(작은)",
+  "games": [
+   "tower",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "monster-1.ogg",
+   "monster-2.ogg",
+   "monster-3.ogg",
+   "monster-4.ogg"
+  ],
+  "src": [
+   "x_80-cc0-creature-sfx\\monster_01.ogg",
+   "x_80-cc0-creature-sfx\\monster_02.ogg",
+   "x_80-cc0-creature-sfx\\monster_03.ogg",
+   "x_80-cc0-creature-sfx\\monster_04.ogg"
+  ]
+ },
+ "roar": {
+  "cat": "creature",
+  "ko": "큰 포효(보스·호랑이)",
+  "games": [
+   "tower",
+   "sagukji",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "roar-1.ogg",
+   "roar-2.ogg",
+   "roar-3.ogg",
+   "roar-4.ogg"
+  ],
+  "src": [
+   "x_80-cc0-creature-sfx\\roar_01.ogg",
+   "x_80-cc0-creature-sfx\\roar_02.ogg",
+   "x_80-cc0-creature-sfx\\roar_03.ogg",
+   "x_80-cc0-creture-sfx-2\\roar_04.ogg"
+  ]
+ },
+ "slime": {
+  "cat": "creature",
+  "ko": "물컹·점액",
+  "games": [
+   "tower",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "slime-1.ogg",
+   "slime-2.ogg",
+   "slime-3.ogg",
+   "slime-4.ogg"
+  ],
+  "src": [
+   "x_40-cc0-water-splash-slime-sfx\\slime_01.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\slime_02.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\slime_03.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\slime_04.ogg"
+  ]
+ },
+ "spit": {
+  "cat": "creature",
+  "ko": "침 뱉기(산성)",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "spit-1.ogg",
+   "spit-2.ogg",
+   "spit-3.ogg"
+  ],
+  "src": [
+   "x_80-cc0-creature-sfx\\spit_01.ogg",
+   "x_80-cc0-creature-sfx\\spit_02.ogg",
+   "x_80-cc0-creature-sfx\\spit_03.ogg"
+  ]
+ },
+ "dog": {
+  "cat": "creature",
+  "ko": "개 짖음",
+  "games": [
+   "dawn",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "dog-1.ogg",
+   "dog-2.ogg"
+  ],
+  "src": [
+   "B:2955#1",
+   "B:0682#1"
+  ]
+ },
+ "growl": {
+  "cat": "creature",
+  "ko": "으르렁",
+  "games": [
+   "dawn",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "growl-1.ogg",
+   "growl-2.ogg"
+  ],
+  "src": [
+   "x_dog-growl\\dog-growl.ogg",
+   "B:1887#1"
+  ]
+ },
+ "crow": {
+  "cat": "creature",
+  "ko": "까마귀",
+  "games": [
+   "dawn",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "crow-1.ogg"
+  ],
+  "src": [
+   "x_crow-caw\\crow_caw.wav"
+  ]
+ },
+ "bird": {
+  "cat": "creature",
+  "ko": "새 지저귐",
+  "games": [
+   "farmstory",
+   "sagukji",
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "bird-1.ogg",
+   "bird-2.ogg"
+  ],
+  "src": [
+   "B:0222",
+   "x_ambient-bird-sounds\\birds-isaiah658_0.ogg"
+  ]
+ },
+ "crickets": {
+  "cat": "creature",
+  "ko": "풀벌레 밤 소리",
+  "games": [
+   "farmstory",
+   "sagukji",
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "crickets-1.ogg",
+   "crickets-2.ogg"
+  ],
+  "src": [
+   "x_crickets-ambient-noise-loopable\\crickets_1.mp3",
+   "B:1020"
+  ]
+ },
+ "cicada": {
+  "cat": "creature",
+  "ko": "매미(여름)",
+  "games": [
+   "farmstory",
+   "sagukji"
+  ],
+  "kind": "loop",
+  "files": [
+   "cicada-1.ogg",
+   "cicada-2.ogg"
+  ],
+  "src": [
+   "B:2397",
+   "B:3002"
+  ]
+ },
+ "cough": {
+  "cat": "human",
+  "ko": "기침",
+  "games": [
+   "dawn",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "cough-1.ogg",
+   "cough-2.ogg",
+   "cough-3.ogg"
+  ],
+  "src": [
+   "B:2183",
+   "B:2189",
+   "B:1657"
+  ]
+ },
+ "breath": {
+  "cat": "human",
+  "ko": "거친 숨",
+  "games": [
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "breath-1.ogg",
+   "breath-2.ogg"
+  ],
+  "src": [
+   "x_owlish/Human/scared-breathing.wav",
+   "B:1103"
+  ]
+ },
+ "heartbeat": {
+  "cat": "human",
+  "ko": "심장 박동(위급)",
+  "games": [
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "heartbeat-1.ogg",
+   "heartbeat-2.ogg"
+  ],
+  "src": [
+   "x_heartbeat-sounds\\heartbeat_fast_0.wav",
+   "x_heartbeat-sounds\\heartbeat_slow_reverb.wav"
+  ]
+ },
+ "gulp": {
+  "cat": "human",
+  "ko": "꿀꺽(마시기·물약)",
+  "games": [
+   "tower",
+   "dawn",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "gulp-1.ogg",
+   "gulp-2.ogg",
+   "gulp-3.ogg"
+  ],
+  "src": [
+   "x_owlish/Impacts\\gulp1.wav",
+   "x_owlish/Impacts\\gulp2.wav",
+   "x_owlish/Human/drink-sip-and-swallow.wav"
+  ]
+ },
+ "eat": {
+  "cat": "human",
+  "ko": "먹기(아삭)",
+  "games": [
+   "tower",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "eat-1.ogg",
+   "eat-2.ogg",
+   "eat-3.ogg"
+  ],
+  "src": [
+   "B:1114#1",
+   "B:3081#1",
+   "x_80-cc0-creature-sfx\\eat_01.ogg"
+  ]
+ },
+ "cheer": {
+  "cat": "human",
+  "ko": "관중 환호",
+  "games": [
+   "grandprix",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "cheer-1.ogg",
+   "cheer-2.ogg",
+   "cheer-3.ogg"
+  ],
+  "src": [
+   "B:0236",
+   "B:0237",
+   "B:0021"
+  ]
+ },
+ "applause": {
+  "cat": "human",
+  "ko": "박수",
+  "games": [
+   "grandprix",
+   "gdi",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "applause-1.ogg",
+   "applause-2.ogg"
+  ],
+  "src": [
+   "B:3523",
+   "B:0814"
+  ]
+ },
+ "crowd": {
+  "cat": "human",
+  "ko": "웅성거림(시장·관중석)",
+  "games": [
+   "grandprix",
+   "sagukji",
+   "gdi"
+  ],
+  "kind": "loop",
+  "files": [
+   "crowd-1.ogg",
+   "crowd-2.ogg"
+  ],
+  "src": [
+   "B:3515",
+   "x_crowd-shoutingspeaking-ambience\\crowd_shouting_0.ogg"
+  ]
+ },
+ "warcry": {
+  "cat": "human",
+  "ko": "함성(돌격)",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "warcry-1.ogg",
+   "warcry-2.ogg"
+  ],
+  "src": [
+   "x_crowd-shoutingspeaking-ambience\\crowd_shouting_0.ogg#1",
+   "B:0825#1"
+  ]
+ },
+ "step": {
+  "cat": "human",
+  "ko": "발걸음(딱딱한 바닥)",
+  "games": [
+   "dawn",
+   "tower",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "step-1.ogg",
+   "step-2.ogg",
+   "step-3.ogg",
+   "step-4.ogg"
+  ],
+  "src": [
+   "x_kenney-impact-sounds\\Audio\\footstep_concrete_000.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_concrete_001.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_concrete_002.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_concrete_003.ogg"
+  ]
+ },
+ "stepGrass": {
+  "cat": "human",
+  "ko": "발걸음(풀·흙)",
+  "games": [
+   "farmstory",
+   "dawn",
+   "sagukji",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "stepGrass-1.ogg",
+   "stepGrass-2.ogg",
+   "stepGrass-3.ogg",
+   "stepGrass-4.ogg"
+  ],
+  "src": [
+   "x_kenney-impact-sounds\\Audio\\footstep_grass_000.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_grass_001.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_grass_002.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_grass_003.ogg"
+  ]
+ },
+ "stepSnow": {
+  "cat": "human",
+  "ko": "발걸음(눈)",
+  "games": [
+   "sagukji",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "stepSnow-1.ogg",
+   "stepSnow-2.ogg",
+   "stepSnow-3.ogg",
+   "stepSnow-4.ogg"
+  ],
+  "src": [
+   "x_kenney-impact-sounds\\Audio\\footstep_snow_000.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_snow_001.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_snow_002.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_snow_003.ogg"
+  ]
+ },
+ "stepWood": {
+  "cat": "human",
+  "ko": "발걸음(나무 바닥)",
+  "games": [
+   "gdi",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "stepWood-1.ogg",
+   "stepWood-2.ogg",
+   "stepWood-3.ogg",
+   "stepWood-4.ogg"
+  ],
+  "src": [
+   "x_kenney-impact-sounds\\Audio\\footstep_wood_000.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_wood_001.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_wood_002.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_wood_003.ogg"
+  ]
+ },
+ "stepMud": {
+  "cat": "human",
+  "ko": "발걸음(진흙·논)",
+  "games": [
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "stepMud-1.ogg",
+   "stepMud-2.ogg",
+   "stepMud-3.ogg",
+   "stepMud-4.ogg"
+  ],
+  "src": [
+   "x_25-cc0-mud-sfx\\mud_01.ogg",
+   "x_25-cc0-mud-sfx\\mud_02.ogg",
+   "x_25-cc0-mud-sfx\\mud_03.ogg",
+   "x_25-cc0-mud-sfx\\mud_04.ogg"
+  ]
+ },
+ "cloth": {
+  "cat": "human",
+  "ko": "옷·천 스침",
+  "games": [
+   "tower",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "cloth-1.ogg",
+   "cloth-2.ogg",
+   "cloth-3.ogg"
+  ],
+  "src": [
+   "x_kenney-rpg-audio\\Audio\\cloth1.ogg",
+   "x_kenney-rpg-audio\\Audio\\cloth2.ogg",
+   "x_kenney-rpg-audio\\Audio\\cloth3.ogg"
+  ]
+ },
+ "armor": {
+  "cat": "human",
+  "ko": "갑옷 철컥(사슬·찰갑)",
+  "games": [
+   "sagukji",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "armor-1.ogg",
+   "armor-2.ogg",
+   "armor-3.ogg"
+  ],
+  "src": [
+   "x_rpg_sound_pack\\RPG Sound Pack\\inventory\\chainmail1.wav",
+   "x_rpg_sound_pack\\RPG Sound Pack\\inventory\\chainmail2.wav",
+   "x_rpg_sound_pack\\RPG Sound Pack\\inventory\\armor-light.wav"
+  ]
+ },
+ "engine": {
+  "cat": "vehicle",
+  "ko": "자동차 엔진(반복)",
+  "games": [
+   "grandprix",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "carStart": {
+  "cat": "vehicle",
+  "ko": "시동",
+  "games": [
+   "grandprix",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "carStart-1.ogg"
+  ],
+  "src": [
+   "x_car-sound-effects-pack-low-quality/Car_Engine_Start_Up.ogg"
+  ]
+ },
+ "screech": {
+  "cat": "vehicle",
+  "ko": "타이어 끽(급정거)",
+  "games": [
+   "grandprix",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "screech-1.ogg",
+   "screech-2.ogg",
+   "screech-3.ogg"
+  ],
+  "src": [
+   "B:2368",
+   "B:2370",
+   "B:2371"
+  ]
+ },
+ "crash": {
+  "cat": "vehicle",
+  "ko": "차 충돌",
+  "games": [
+   "grandprix",
+   "dawn",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "crash-1.ogg",
+   "crash-2.ogg",
+   "crash-3.ogg"
+  ],
+  "src": [
+   "x_crash-collision\\qubodup-crash.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_metal_falling_01.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_metal_falling_02.ogg"
+  ]
+ },
+ "bump": {
+  "cat": "vehicle",
+  "ko": "차끼리 툭",
+  "games": [
+   "grandprix"
+  ],
+  "kind": "one",
+  "files": [
+   "bump-1.ogg",
+   "bump-2.ogg",
+   "bump-3.ogg"
+  ],
+  "src": [
+   "x_kenney-impact-sounds\\Audio\\impactMetal_heavy_000.ogg",
+   "x_kenney-impact-sounds\\Audio\\impactMetal_heavy_001.ogg",
+   "x_kenney-impact-sounds\\Audio\\impactMetal_heavy_002.ogg"
+  ]
+ },
+ "horn": {
+  "cat": "vehicle",
+  "ko": "경적",
+  "games": [
+   "grandprix",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "horn-1.ogg",
+   "horn-2.ogg",
+   "horn-3.ogg"
+  ],
+  "src": [
+   "B:0258",
+   "B:0969",
+   "x_car-sound-effects-pack-low-quality/Car_Horn.ogg"
+  ]
+ },
+ "siren": {
+  "cat": "vehicle",
+  "ko": "사이렌(반복)",
+  "games": [
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "siren-1.ogg"
+  ],
+  "src": [
+   "B:2731"
+  ]
+ },
+ "trainHorn": {
+  "cat": "vehicle",
+  "ko": "기차 경적",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "trainHorn-1.ogg",
+   "trainHorn-2.ogg"
+  ],
+  "src": [
+   "B:2847",
+   "B:0277"
+  ]
+ },
+ "train": {
+  "cat": "vehicle",
+  "ko": "기차 지나감",
+  "games": [
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "train-1.ogg",
+   "train-2.ogg"
+  ],
+  "src": [
+   "B:1062",
+   "B:0120"
+  ]
+ },
+ "heli": {
+  "cat": "vehicle",
+  "ko": "헬기·드론(반복)",
+  "games": [
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "heli-1.ogg",
+   "heli-2.ogg"
+  ],
+  "src": [
+   "B:0263",
+   "B:3552"
+  ]
+ },
+ "tractor": {
+  "cat": "vehicle",
+  "ko": "경운기·트랙터(반복)",
+  "games": [
+   "farmstory"
+  ],
+  "kind": "loop",
+  "files": [
+   "tractor-1.ogg",
+   "tractor-2.ogg"
+  ],
+  "src": [
+   "B:0499",
+   "B:0133"
+  ]
+ },
+ "rowing": {
+  "cat": "vehicle",
+  "ko": "노 젓기",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "loop",
+  "files": [
+   "rowing-1.ogg"
+  ],
+  "src": [
+   "B:1514"
+  ]
+ },
+ "boost": {
+  "cat": "vehicle",
+  "ko": "부스터(쉬익)",
+  "games": [
+   "grandprix"
+  ],
+  "kind": "one",
+  "files": [
+   "boost-1.ogg",
+   "boost-2.ogg"
+  ],
+  "src": [
+   "x_air-whoosh\\whoosh2_0.wav",
+   "B:0573#1"
+  ]
+ },
+ "slip": {
+  "cat": "vehicle",
+  "ko": "미끄러짐(바나나·기름)",
+  "games": [
+   "grandprix"
+  ],
+  "kind": "one",
+  "files": [
+   "slip-1.ogg",
+   "slip-2.ogg",
+   "slip-3.ogg"
+  ],
+  "src": [
+   "x_40-cc0-water-splash-slime-sfx\\slime_10.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\slime_11.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\slime_12.ogg"
+  ]
+ },
+ "wrench": {
+  "cat": "vehicle",
+  "ko": "수리(라쳇)",
+  "games": [
+   "grandprix",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "wrench-1.ogg",
+   "wrench-2.ogg"
+  ],
+  "src": [
+   "B:0794#1",
+   "B:0795#1"
+  ]
+ },
+ "door": {
+  "cat": "object",
+  "ko": "문 열기",
+  "games": [
+   "dawn",
+   "gdi",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "door-1.ogg",
+   "door-2.ogg"
+  ],
+  "src": [
+   "x_kenney-rpg-audio\\Audio\\doorOpen_1.ogg",
+   "x_kenney-rpg-audio\\Audio\\doorOpen_2.ogg"
+  ]
+ },
+ "doorClose": {
+  "cat": "object",
+  "ko": "문 닫기",
+  "games": [
+   "dawn",
+   "gdi",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "doorClose-1.ogg",
+   "doorClose-2.ogg",
+   "doorClose-3.ogg"
+  ],
+  "src": [
+   "x_kenney-rpg-audio\\Audio\\doorClose_1.ogg",
+   "x_kenney-rpg-audio\\Audio\\doorClose_2.ogg",
+   "x_kenney-rpg-audio\\Audio\\doorClose_3.ogg"
+  ]
+ },
+ "doorBang": {
+  "cat": "object",
+  "ko": "문 쾅쾅·부서짐",
+  "games": [
+   "dawn",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "doorBang-1.ogg",
+   "doorBang-2.ogg",
+   "doorBang-3.ogg"
+  ],
+  "src": [
+   "x_100-cc0-metal-and-wood-sfx\\wood_slam_01.ogg",
+   "x_100-cc0-metal-and-wood-sfx\\wood_slam_02.ogg",
+   "x_100-cc0-metal-and-wood-sfx\\wood_slam_03.ogg"
+  ]
+ },
+ "woodBreak": {
+  "cat": "object",
+  "ko": "나무 부서짐(성문·상자)",
+  "games": [
+   "sagukji",
+   "dawn",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "woodBreak-1.ogg",
+   "woodBreak-2.ogg",
+   "woodBreak-3.ogg"
+  ],
+  "src": [
+   "x_sfx_breaking_and_falling\\bfh1_wood_breaking_01.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_wood_breaking_02.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_wood_breaking_03.ogg"
+  ]
+ },
+ "rockFall": {
+  "cat": "object",
+  "ko": "돌 무너짐(성벽·바닥)",
+  "games": [
+   "tower",
+   "sagukji",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "rockFall-1.ogg",
+   "rockFall-2.ogg",
+   "rockFall-3.ogg"
+  ],
+  "src": [
+   "x_sfx_breaking_and_falling\\bfh1_rock_falling_01.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_rock_falling_02.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_rock_falling_03.ogg"
+  ]
+ },
+ "crack": {
+  "cat": "object",
+  "ko": "갈라짐(얼음·바닥)",
+  "games": [
+   "tower",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "crack-1.ogg",
+   "crack-2.ogg",
+   "crack-3.ogg"
+  ],
+  "src": [
+   "x_100-cc0-metal-and-wood-sfx\\wood_cracking_01.ogg",
+   "x_100-cc0-metal-and-wood-sfx\\wood_cracking_02.ogg",
+   "x_100-cc0-metal-and-wood-sfx\\wood_cracking_03.ogg"
+  ]
+ },
+ "metalFall": {
+  "cat": "object",
+  "ko": "쇠붙이 떨어짐",
+  "games": [
+   "dawn",
+   "tower",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "metalFall-1.ogg",
+   "metalFall-2.ogg",
+   "metalFall-3.ogg"
+  ],
+  "src": [
+   "x_sfx_breaking_and_falling\\bfh1_metal_falling_03.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_metal_falling_04.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_metal_falling_05.ogg"
+  ]
+ },
+ "thud": {
+  "cat": "object",
+  "ko": "쿵(무거운 것)",
+  "games": [
+   "tower",
+   "dawn",
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "thud-1.ogg",
+   "thud-2.ogg"
+  ],
+  "src": [
+   "x_sfx_breaking_and_falling\\bfh1_hit_01.ogg",
+   "x_sfx_breaking_and_falling\\bfh1_hit_02.ogg"
+  ]
+ },
+ "spike": {
+  "cat": "object",
+  "ko": "함정 찰칵·가시",
+  "games": [
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "impactMetal_light_000.ogg",
+   "impactMetal_light_001.ogg",
+   "impactMetal_light_002.ogg",
+   "impactMetal_light_004.ogg"
+  ],
+  "src": [
+   "(이미 있던 묶음 — CREDITS 참고)"
+  ]
+ },
+ "trap": {
+  "cat": "object",
+  "ko": "덫 튕김",
+  "games": [
+   "tower",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "trap-1.ogg",
+   "trap-2.ogg",
+   "trap-3.ogg"
+  ],
+  "src": [
+   "B:1992",
+   "x_100-cc0-metal-and-wood-sfx\\metal_spring_01.ogg",
+   "x_100-cc0-metal-and-wood-sfx\\metal_spring_02.ogg"
+  ]
+ },
+ "chest": {
+  "cat": "object",
+  "ko": "상자 열기",
+  "games": [
+   "dawn",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "chest-1.ogg",
+   "chest-2.ogg",
+   "chest-3.ogg"
+  ],
+  "src": [
+   "x_100-cc0-sfx\\wooded_box_open.ogg",
+   "x_kenney-rpg-audio\\Audio\\creak1.ogg",
+   "x_kenney-rpg-audio\\Audio\\creak2.ogg"
+  ]
+ },
+ "lever": {
+  "cat": "object",
+  "ko": "레버·밸브 돌림",
+  "games": [
+   "tower",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "lever-1.ogg",
+   "lever-2.ogg"
+  ],
+  "src": [
+   "x_kenney-rpg-audio\\Audio\\metalClick.ogg",
+   "x_100-cc0-metal-and-wood-sfx\\metal_open_01.ogg"
+  ]
+ },
+ "hammer": {
+  "cat": "object",
+  "ko": "망치질(공사·대장간)",
+  "games": [
+   "farmstory",
+   "sagukji",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "hammer-1.ogg",
+   "hammer-2.ogg",
+   "hammer-3.ogg"
+  ],
+  "src": [
+   "x_100-cc0-metal-and-wood-sfx\\wood_hammer_01.ogg",
+   "x_100-cc0-metal-and-wood-sfx\\wood_hammer_02.ogg",
+   "x_hammer-on-anvil\\forger_0.ogg"
+  ]
+ },
+ "saw": {
+  "cat": "object",
+  "ko": "톱질",
+  "games": [
+   "farmstory",
+   "sagukji"
+  ],
+  "kind": "loop",
+  "files": [
+   "saw-1.ogg",
+   "saw-2.ogg"
+  ],
+  "src": [
+   "B:0559",
+   "B:0016"
+  ]
+ },
+ "drill": {
+  "cat": "object",
+  "ko": "드릴·공구",
+  "games": [
+   "gdi",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "drill-1.ogg",
+   "drill-2.ogg"
+  ],
+  "src": [
+   "B:1573",
+   "B:1572"
+  ]
+ },
+ "bell": {
+  "cat": "object",
+  "ko": "종(절·성·탑)",
+  "games": [
+   "sagukji",
+   "tower",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "bell-1.ogg",
+   "bell-2.ogg",
+   "bell-3.ogg"
+  ],
+  "src": [
+   "B:2703",
+   "B:2705",
+   "x_100-cc0-sfx\\bell_01.ogg"
+  ]
+ },
+ "gong": {
+  "cat": "object",
+  "ko": "징·공",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "gong-1.ogg",
+   "gong-2.ogg",
+   "gong-3.ogg"
+  ],
+  "src": [
+   "B:1483",
+   "x_100-cc0-sfx\\gong_01.ogg",
+   "x_100-cc0-sfx\\gong_02.ogg"
+  ]
+ },
+ "drum": {
+  "cat": "object",
+  "ko": "북(진군·전투)",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "drum-1.ogg",
+   "drum-2.ogg",
+   "drum-3.ogg"
+  ],
+  "src": [
+   "B:2338",
+   "B:2341",
+   "x_horde-war-drums-loop\\horde_war_drums_by_william_hector.wav#1"
+  ]
+ },
+ "warDrums": {
+  "cat": "object",
+  "ko": "전쟁 북(반복)",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "loop",
+  "files": [
+   "warDrums-1.ogg"
+  ],
+  "src": [
+   "x_horde-war-drums-loop\\horde_war_drums_by_william_hector.wav"
+  ]
+ },
+ "warHorn": {
+  "cat": "object",
+  "ko": "뿔피리·나각(진군 신호)",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "warHorn-1.ogg",
+   "warHorn-2.ogg"
+  ],
+  "src": [
+   "x_their-coming-generic-horn-sound\\theircoming3_0.ogg",
+   "x_their-coming-generic-horn-sound\\theircoming_0.ogg#1"
+  ]
+ },
+ "flute": {
+  "cat": "object",
+  "ko": "피리 한 음",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "flute-1.ogg"
+  ],
+  "src": [
+   "x_wip-raw-pan-flute-audio\\pan_flute_d5_1.ogg"
+  ]
+ },
+ "chime": {
+  "cat": "object",
+  "ko": "풍경·종소리(맑은)",
+  "games": [
+   "sagukji",
+   "farmstory",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "chime-1.ogg",
+   "chime-2.ogg"
+  ],
+  "src": [
+   "B:2086",
+   "B:2079"
+  ]
+ },
+ "dig": {
+  "cat": "farm",
+  "ko": "흙 파기·괭이질",
+  "games": [
+   "farmstory",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "dig-1.ogg",
+   "dig-2.ogg"
+  ],
+  "src": [
+   "x_shovel-sound\\shovel_0.ogg",
+   "x_kenney-impact-sounds\\Audio\\footstep_grass_004.ogg"
+  ]
+ },
+ "plant": {
+  "cat": "farm",
+  "ko": "심기(흙 덮기)",
+  "games": [
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "plant-1.ogg",
+   "plant-2.ogg",
+   "plant-3.ogg"
+  ],
+  "src": [
+   "x_25-cc0-mud-sfx\\mud_05.ogg",
+   "x_25-cc0-mud-sfx\\mud_06.ogg",
+   "x_25-cc0-mud-sfx\\mud_07.ogg"
+  ]
+ },
+ "water": {
+  "cat": "farm",
+  "ko": "물 주기·밸브에서 물 쏟아짐",
+  "games": [
+   "farmstory",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "water-1.ogg",
+   "water-2.ogg"
+  ],
+  "src": [
+   "B:1303",
+   "B:0818"
+  ]
+ },
+ "waterLoop": {
+  "cat": "farm",
+  "ko": "물 흐름(반복 — 물뿌리개·수도)",
+  "games": [
+   "farmstory",
+   "tower",
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "waterLoop-1.ogg",
+   "waterLoop-2.ogg"
+  ],
+  "src": [
+   "B:1302",
+   "B:0652"
+  ]
+ },
+ "harvest": {
+  "cat": "farm",
+  "ko": "수확(뽑기·베기)",
+  "games": [
+   "farmstory",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "harvest-1.ogg",
+   "harvest-2.ogg",
+   "harvest-3.ogg"
+  ],
+  "src": [
+   "x_tinysized\\sfx-cc0\\apple-cut-01.wav",
+   "x_tinysized\\sfx-cc0\\apple-cut-02.wav",
+   "x_tinysized\\sfx-cc0\\apple-cut-03.wav"
+  ]
+ },
+ "chicken": {
+  "cat": "farm",
+  "ko": "닭",
+  "games": [
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "chicken-1.ogg",
+   "chicken-2.ogg",
+   "chicken-3.ogg"
+  ],
+  "src": [
+   "B:0453",
+   "B:1040#1",
+   "B:0978#1"
+  ]
+ },
+ "rooster": {
+  "cat": "farm",
+  "ko": "수탉 울음(아침)",
+  "games": [
+   "farmstory",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "rooster-1.ogg",
+   "rooster-2.ogg"
+  ],
+  "src": [
+   "B:0283",
+   "B:0440"
+  ]
+ },
+ "cow": {
+  "cat": "farm",
+  "ko": "소 울음",
+  "games": [
+   "farmstory",
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "cow-1.ogg",
+   "cow-2.ogg",
+   "cow-3.ogg"
+  ],
+  "src": [
+   "B:2386",
+   "B:2383",
+   "B:2385"
+  ]
+ },
+ "pig": {
+  "cat": "farm",
+  "ko": "돼지",
+  "games": [
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "pig-1.ogg",
+   "pig-2.ogg"
+  ],
+  "src": [
+   "B:1659#1",
+   "B:1658"
+  ]
+ },
+ "sheep": {
+  "cat": "farm",
+  "ko": "양",
+  "games": [
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "sheep-1.ogg",
+   "sheep-2.ogg",
+   "sheep-3.ogg"
+  ],
+  "src": [
+   "B:2343",
+   "B:2348",
+   "x_sheep-baa\\sheep_baa.flac"
+  ]
+ },
+ "goat": {
+  "cat": "farm",
+  "ko": "염소",
+  "games": [
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "goat-1.ogg",
+   "goat-2.ogg"
+  ],
+  "src": [
+   "B:0279",
+   "B:0280"
+  ]
+ },
+ "duck": {
+  "cat": "farm",
+  "ko": "오리",
+  "games": [
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "duck-1.ogg",
+   "duck-2.ogg"
+  ],
+  "src": [
+   "B:0276#1",
+   "B:0276#2"
+  ]
+ },
+ "horse": {
+  "cat": "farm",
+  "ko": "말 울음",
+  "games": [
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "one",
+  "files": [
+   "horse-1.ogg",
+   "horse-2.ogg",
+   "horse-3.ogg"
+  ],
+  "src": [
+   "B:0863",
+   "B:0284",
+   "B:1542"
+  ]
+ },
+ "horseSnort": {
+  "cat": "farm",
+  "ko": "말 콧김",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "horseSnort-1.ogg",
+   "horseSnort-2.ogg",
+   "horseSnort-3.ogg"
+  ],
+  "src": [
+   "B:1543",
+   "B:0286",
+   "B:0285"
+  ]
+ },
+ "gallop": {
+  "cat": "farm",
+  "ko": "말 달림(반복)",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "loop",
+  "files": [
+   "gallop-1.ogg",
+   "gallop-2.ogg"
+  ],
+  "src": [
+   "B:0611",
+   "B:1850"
+  ]
+ },
+ "trot": {
+  "cat": "farm",
+  "ko": "말 걸음(반복)",
+  "games": [
+   "sagukji",
+   "farmstory"
+  ],
+  "kind": "loop",
+  "files": [
+   "trot-1.ogg",
+   "trot-2.ogg"
+  ],
+  "src": [
+   "x_horse-trotting\\Trot.ogg",
+   "B:0610"
+  ]
+ },
+ "cat": {
+  "cat": "farm",
+  "ko": "고양이",
+  "games": [
+   "farmstory",
+   "gdi"
+  ],
+  "kind": "one",
+  "files": [
+   "cat-1.ogg",
+   "cat-2.ogg",
+   "cat-3.ogg"
+  ],
+  "src": [
+   "B:1890",
+   "B:1898",
+   "x_cat-purr-meow\\cat_softmew.wav"
+  ]
+ },
+ "rain": {
+  "cat": "env",
+  "ko": "비(반복)",
+  "games": [
+   "grandprix",
+   "tower",
+   "sagukji",
+   "farmstory",
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "rain-1.ogg",
+   "rain-2.ogg"
+  ],
+  "src": [
+   "x_amb-rain-loop-1\\amb_rain_loop_1.ogg",
+   "B:1289"
+  ]
+ },
+ "thunder": {
+  "cat": "env",
+  "ko": "천둥",
+  "games": [
+   "sagukji",
+   "farmstory",
+   "grandprix"
+  ],
+  "kind": "one",
+  "files": [
+   "thunder-1.ogg",
+   "thunder-2.ogg"
+  ],
+  "src": [
+   "x_100-cc0-sfx-2\\sfx100v2_thunder_01.ogg",
+   "x_rain-long-thunder\\rain-thunder.ogg#1"
+  ]
+ },
+ "wind": {
+  "cat": "env",
+  "ko": "바람(반복)",
+  "games": [
+   "tower",
+   "sagukji",
+   "farmstory",
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "wind-1.ogg",
+   "wind-2.ogg"
+  ],
+  "src": [
+   "B:0595",
+   "B:0908"
+  ]
+ },
+ "stormWind": {
+  "cat": "env",
+  "ko": "거센 바람(반복)",
+  "games": [
+   "tower",
+   "sagukji"
+  ],
+  "kind": "loop",
+  "files": [
+   "stormWind-1.ogg",
+   "stormWind-2.ogg"
+  ],
+  "src": [
+   "B:0146",
+   "B:0152"
+  ]
+ },
+ "stream": {
+  "cat": "env",
+  "ko": "시냇물(반복)",
+  "games": [
+   "sagukji",
+   "farmstory",
+   "tower"
+  ],
+  "kind": "loop",
+  "files": [
+   "stream-1.ogg",
+   "stream-2.ogg"
+  ],
+  "src": [
+   "B:1354",
+   "B:0213"
+  ]
+ },
+ "waves": {
+  "cat": "env",
+  "ko": "파도(반복)",
+  "games": [
+   "sagukji",
+   "tower"
+  ],
+  "kind": "loop",
+  "files": [
+   "waves-1.ogg",
+   "waves-2.ogg"
+  ],
+  "src": [
+   "B:0266",
+   "B:0265"
+  ]
+ },
+ "splash": {
+  "cat": "env",
+  "ko": "물 첨벙",
+  "games": [
+   "tower",
+   "sagukji",
+   "farmstory",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "splash-1.ogg",
+   "splash-2.ogg",
+   "splash-3.ogg",
+   "splash-4.ogg"
+  ],
+  "src": [
+   "x_40-cc0-water-splash-slime-sfx\\splash_01.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\splash_02.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\splash_03.ogg",
+   "x_40-cc0-water-splash-slime-sfx\\splash_04.ogg"
+  ]
+ },
+ "bigSplash": {
+  "cat": "env",
+  "ko": "크게 첨벙(배·사람 빠짐)",
+  "games": [
+   "sagukji",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "bigSplash-1.ogg",
+   "bigSplash-2.ogg",
+   "bigSplash-3.ogg"
+  ],
+  "src": [
+   "B:1521",
+   "B:1519",
+   "x_battle-at-sea/cannon_miss_1.ogg"
+  ]
+ },
+ "bubbles": {
+  "cat": "env",
+  "ko": "부글부글(반복)",
+  "games": [
+   "tower",
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "bubbles-1.ogg"
+  ],
+  "src": [
+   "x_40-cc0-water-splash-slime-sfx/loop_bubbles_1.ogg"
+  ]
+ },
+ "drip": {
+  "cat": "env",
+  "ko": "물방울",
+  "games": [
+   "tower",
+   "dawn"
+  ],
+  "kind": "one",
+  "files": [
+   "drip-1.ogg",
+   "drip-2.ogg",
+   "drip-3.ogg"
+  ],
+  "src": [
+   "B:1386#1",
+   "B:1386#2",
+   "B:1386#3"
+  ]
+ },
+ "campfire": {
+  "cat": "env",
+  "ko": "모닥불·불길(반복)",
+  "games": [
+   "tower",
+   "sagukji",
+   "dawn",
+   "farmstory"
+  ],
+  "kind": "loop",
+  "files": [
+   "campfire-1.ogg",
+   "campfire-2.ogg"
+  ],
+  "src": [
+   "B:2857",
+   "x_fire-crackling\\fire-1.wav"
+  ]
+ },
+ "blaze": {
+  "cat": "env",
+  "ko": "큰 불(반복 — 화염방사기·화재)",
+  "games": [
+   "dawn",
+   "sagukji"
+  ],
+  "kind": "loop",
+  "files": [
+   "blaze-1.ogg",
+   "blaze-2.ogg"
+  ],
+  "src": [
+   "B:1341",
+   "B:0987"
+  ]
+ },
+ "ignite": {
+  "cat": "env",
+  "ko": "불붙음(화르륵)",
+  "games": [
+   "dawn",
+   "sagukji",
+   "tower"
+  ],
+  "kind": "one",
+  "files": [
+   "ignite-1.ogg",
+   "ignite-2.ogg",
+   "ignite-3.ogg"
+  ],
+  "src": [
+   "B:0049#1",
+   "B:1271#1",
+   "x_tinysized\\sfx-cc0\\lighter-light-01.wav"
+  ]
+ },
+ "spray": {
+  "cat": "env",
+  "ko": "분사(소화기·물대포)",
+  "games": [
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "spray-1.ogg",
+   "spray-2.ogg"
+  ],
+  "src": [
+   "x_tinysized\\sfx-cc0\\compressed-air-spray-01.wav",
+   "x_tinysized\\sfx-cc0\\compressed-air-spray-02.wav"
+  ]
+ },
+ "earthquake": {
+  "cat": "env",
+  "ko": "땅울림·무너짐(반복)",
+  "games": [
+   "tower",
+   "sagukji",
+   "dawn"
+  ],
+  "kind": "loop",
+  "files": [
+   "earthquake-1.ogg"
+  ],
+  "src": [
+   "x_owlish/Ambience/earthquake.wav"
+  ]
+ },
+ "clock": {
+  "cat": "env",
+  "ko": "시계 째깍(반복)",
+  "games": [
+   "gdi",
+   "tower"
+  ],
+  "kind": "loop",
+  "files": [
+   "clock-1.ogg"
+  ],
+  "src": [
+   "x_owlish/Ambience/loopable-ticking-clock.wav"
+  ]
+ },
+ "nightAmb": {
+  "cat": "env",
+  "ko": "시골 밤(반복)",
+  "games": [
+   "farmstory",
+   "dawn",
+   "sagukji"
+  ],
+  "kind": "loop",
+  "files": [
+   "nightAmb-1.ogg"
+  ],
+  "src": [
+   "x_owlish/Ambience/night-crickets-ambience-on-rural-property.wav"
+  ]
+ },
+ "office": {
+  "cat": "env",
+  "ko": "사무실 웅웅(반복)",
+  "games": [
+   "gdi"
+  ],
+  "kind": "loop",
+  "files": [
+   "office-1.ogg",
+   "office-2.ogg"
+  ],
+  "src": [
+   "x_30-cc0-sfx-loops\\ambient_01.ogg",
+   "x_30-cc0-sfx-loops\\ambient_03.ogg"
+  ]
+ },
+ "shipHit": {
+  "cat": "env",
+  "ko": "배끼리 부딪힘",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "shipHit-1.ogg"
+  ],
+  "src": [
+   "x_battle-at-sea/ship_ram_ship_shortened.ogg"
+  ]
+ },
+ "shipSink": {
+  "cat": "env",
+  "ko": "배 가라앉음",
+  "games": [
+   "sagukji"
+  ],
+  "kind": "one",
+  "files": [
+   "shipSink-1.ogg"
+  ],
+  "src": [
+   "x_battle-at-sea/ship_destroyed_short.ogg"
+  ]
+ }
+}
