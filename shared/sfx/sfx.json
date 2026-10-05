@@ -1,0 +1,344 @@
+{
+ "_note": "딸깍 게임 공용 효과음(CC0). files = 파일마다 크기 맞춤 배율(실효값 0.12 기준), sets = 이름마다 번갈아 쓸 파일과 크기. game/shared/audio.js 가 읽는다.",
+ "files": {
+  "blade_01.ogg": 1.1,
+  "blade_02.ogg": 0.97,
+  "blade_03.ogg": 1.0,
+  "knifeSlice.ogg": 1.1,
+  "knifeSlice2.ogg": 0.92,
+  "impactPunch_medium_000.ogg": 0.87,
+  "impactPunch_medium_001.ogg": 0.84,
+  "impactPunch_medium_002.ogg": 1.03,
+  "impactPunch_medium_003.ogg": 0.98,
+  "impactPunch_medium_004.ogg": 1.02,
+  "impactPunch_heavy_000.ogg": 0.95,
+  "impactPunch_heavy_001.ogg": 0.9,
+  "impactPunch_heavy_002.ogg": 0.81,
+  "impactPunch_heavy_003.ogg": 0.86,
+  "impactPunch_heavy_004.ogg": 0.89,
+  "impactSoft_heavy_000.ogg": 0.87,
+  "impactSoft_heavy_001.ogg": 0.9,
+  "impactSoft_heavy_002.ogg": 0.86,
+  "impactSoft_heavy_003.ogg": 0.81,
+  "impactSoft_heavy_004.ogg": 0.83,
+  "cloth1.ogg": 1.61,
+  "cloth2.ogg": 2.37,
+  "cloth3.ogg": 3.06,
+  "spell_fire_01.ogg": 7.31,
+  "spell_fire_02.ogg": 8,
+  "spell_fire_05.ogg": 8,
+  "spell_fire_06.ogg": 3.65,
+  "spell_fire_07.ogg": 4.8,
+  "impactGlass_light_000.ogg": 1.13,
+  "impactGlass_light_001.ogg": 1.06,
+  "impactGlass_light_002.ogg": 1.09,
+  "impactGlass_light_003.ogg": 1.08,
+  "impactGlass_light_004.ogg": 1.04,
+  "spell_01.ogg": 0.91,
+  "spell_02.ogg": 1.02,
+  "chain_01.ogg": 0.96,
+  "pluck_001.ogg": 0.9,
+  "pluck_002.ogg": 1.0,
+  "maximize_003.ogg": 1.06,
+  "maximize_007.ogg": 0.57,
+  "glass_005.ogg": 1.06,
+  "impactMining_000.ogg": 1.07,
+  "impactMining_001.ogg": 1.07,
+  "impactMining_002.ogg": 1.09,
+  "impactMining_003.ogg": 1.07,
+  "impactMining_004.ogg": 1.06,
+  "creature_hurt_01.ogg": 0.99,
+  "creature_hurt_02.ogg": 1.51,
+  "creature_misc_01.ogg": 1.43,
+  "creature_misc_05.ogg": 1.38,
+  "creature_monster_01.ogg": 1.16,
+  "creature_monster_02.ogg": 1.17,
+  "item_coins_01.ogg": 0.9,
+  "item_coins_02.ogg": 1.06,
+  "item_coins_03.ogg": 1.13,
+  "item_misc_01.ogg": 0.95,
+  "item_misc_02.ogg": 0.94,
+  "item_misc_03.ogg": 0.97,
+  "item_misc_04.ogg": 0.98,
+  "metalLatch.ogg": 0.86,
+  "beltHandle1.ogg": 1.46,
+  "item_gem_01.ogg": 0.96,
+  "glass_001.ogg": 1.07,
+  "glass_004.ogg": 0.95,
+  "bong_001.ogg": 0.77,
+  "confirmation_002.ogg": 0.67,
+  "confirmation_004.ogg": 0.47,
+  "confirmation_001.ogg": 0.44,
+  "confirmation_003.ogg": 0.69,
+  "impactBell_heavy_000.ogg": 1.08,
+  "impactBell_heavy_001.ogg": 1.09,
+  "creature_roar_01.ogg": 0.48,
+  "creature_roar_02.ogg": 1.09,
+  "creature_roar_03.ogg": 0.73,
+  "select_003.ogg": 1.04,
+  "select_004.ogg": 1.03,
+  "select_005.ogg": 1.03,
+  "impactMetal_light_000.ogg": 1.06,
+  "impactMetal_light_001.ogg": 1.06,
+  "impactMetal_light_002.ogg": 1.12,
+  "impactMetal_light_004.ogg": 1.1,
+  "tick_001.ogg": 0.99,
+  "tick_002.ogg": 0.82,
+  "tick_004.ogg": 0.73,
+  "select_001.ogg": 0.88,
+  "select_002.ogg": 0.75,
+  "select_007.ogg": 0.57,
+  "click_002.ogg": 0.67,
+  "click_003.ogg": 0.64,
+  "click_004.ogg": 0.65,
+  "click_005.ogg": 0.45,
+  "open_002.ogg": 0.79,
+  "open_003.ogg": 0.69,
+  "close_002.ogg": 0.79,
+  "close_003.ogg": 0.69
+ },
+ "sets": {
+  "swing": {
+   "f": [
+    "blade_01.ogg",
+    "blade_02.ogg",
+    "blade_03.ogg",
+    "knifeSlice.ogg",
+    "knifeSlice2.ogg"
+   ],
+   "v": 0.5
+  },
+  "hit": {
+   "f": [
+    "impactPunch_medium_000.ogg",
+    "impactPunch_medium_001.ogg",
+    "impactPunch_medium_002.ogg",
+    "impactPunch_medium_003.ogg",
+    "impactPunch_medium_004.ogg"
+   ],
+   "v": 0.45
+  },
+  "hitCrit": {
+   "f": [
+    "impactPunch_heavy_000.ogg",
+    "impactPunch_heavy_001.ogg",
+    "impactPunch_heavy_002.ogg",
+    "impactPunch_heavy_003.ogg",
+    "impactPunch_heavy_004.ogg"
+   ],
+   "v": 0.6
+  },
+  "hurt": {
+   "f": [
+    "impactSoft_heavy_000.ogg",
+    "impactSoft_heavy_001.ogg",
+    "impactSoft_heavy_002.ogg",
+    "impactSoft_heavy_003.ogg",
+    "impactSoft_heavy_004.ogg"
+   ],
+   "v": 0.55
+  },
+  "dodge": {
+   "f": [
+    "cloth1.ogg",
+    "cloth2.ogg",
+    "cloth3.ogg"
+   ],
+   "v": 0.6
+  },
+  "fire": {
+   "f": [
+    "spell_fire_01.ogg",
+    "spell_fire_02.ogg",
+    "spell_fire_05.ogg",
+    "spell_fire_06.ogg",
+    "spell_fire_07.ogg"
+   ],
+   "v": 0.6
+  },
+  "frost": {
+   "f": [
+    "impactGlass_light_000.ogg",
+    "impactGlass_light_001.ogg",
+    "impactGlass_light_002.ogg",
+    "impactGlass_light_003.ogg",
+    "impactGlass_light_004.ogg"
+   ],
+   "v": 0.45
+  },
+  "bolt": {
+   "f": [
+    "spell_01.ogg",
+    "spell_02.ogg",
+    "chain_01.ogg"
+   ],
+   "v": 0.55
+  },
+  "bow": {
+   "f": [
+    "pluck_001.ogg",
+    "pluck_002.ogg"
+   ],
+   "v": 0.55
+  },
+  "blink": {
+   "f": [
+    "maximize_003.ogg",
+    "maximize_007.ogg",
+    "glass_005.ogg"
+   ],
+   "v": 0.35
+  },
+  "boom": {
+   "f": [
+    "impactMining_000.ogg",
+    "impactMining_001.ogg",
+    "impactMining_002.ogg",
+    "impactMining_003.ogg",
+    "impactMining_004.ogg"
+   ],
+   "v": 0.75
+  },
+  "die": {
+   "f": [
+    "creature_hurt_01.ogg",
+    "creature_hurt_02.ogg",
+    "creature_misc_01.ogg",
+    "creature_misc_05.ogg",
+    "creature_monster_01.ogg",
+    "creature_monster_02.ogg"
+   ],
+   "v": 0.45
+  },
+  "gold": {
+   "f": [
+    "item_coins_01.ogg",
+    "item_coins_02.ogg",
+    "item_coins_03.ogg"
+   ],
+   "v": 0.55
+  },
+  "pickup": {
+   "f": [
+    "item_misc_01.ogg",
+    "item_misc_02.ogg",
+    "item_misc_03.ogg",
+    "item_misc_04.ogg"
+   ],
+   "v": 0.45
+  },
+  "equip": {
+   "f": [
+    "metalLatch.ogg",
+    "beltHandle1.ogg",
+    "item_gem_01.ogg"
+   ],
+   "v": 0.55
+  },
+  "potion": {
+   "f": [
+    "glass_001.ogg",
+    "glass_004.ogg"
+   ],
+   "v": 0.45
+  },
+  "ding": {
+   "f": [
+    "bong_001.ogg"
+   ],
+   "v": 0.45
+  },
+  "levelup": {
+   "f": [
+    "confirmation_002.ogg",
+    "confirmation_004.ogg"
+   ],
+   "v": 0.6
+  },
+  "clear": {
+   "f": [
+    "confirmation_001.ogg",
+    "confirmation_003.ogg"
+   ],
+   "v": 0.65
+  },
+  "dead": {
+   "f": [
+    "impactBell_heavy_000.ogg",
+    "impactBell_heavy_001.ogg"
+   ],
+   "v": 0.65
+  },
+  "boss": {
+   "f": [
+    "creature_roar_01.ogg",
+    "creature_roar_02.ogg",
+    "creature_roar_03.ogg"
+   ],
+   "v": 0.85
+  },
+  "combo": {
+   "f": [
+    "select_003.ogg",
+    "select_004.ogg",
+    "select_005.ogg"
+   ],
+   "v": 0.45
+  },
+  "spike": {
+   "f": [
+    "impactMetal_light_000.ogg",
+    "impactMetal_light_001.ogg",
+    "impactMetal_light_002.ogg",
+    "impactMetal_light_004.ogg"
+   ],
+   "v": 0.45
+  },
+  "tick": {
+   "f": [
+    "tick_001.ogg",
+    "tick_002.ogg",
+    "tick_004.ogg"
+   ],
+   "v": 0.35
+  },
+  "ok": {
+   "f": [
+    "select_001.ogg",
+    "select_002.ogg",
+    "select_007.ogg"
+   ],
+   "v": 0.45
+  },
+  "talk": {
+   "f": [
+    "click_002.ogg",
+    "click_003.ogg",
+    "click_004.ogg",
+    "click_005.ogg"
+   ],
+   "v": 0.2
+  },
+  "awaken": {
+   "f": [
+    "spell_01.ogg",
+    "spell_02.ogg"
+   ],
+   "v": 1.0
+  },
+  "open": {
+   "f": [
+    "open_002.ogg",
+    "open_003.ogg"
+   ],
+   "v": 0.4
+  },
+  "close": {
+   "f": [
+    "close_002.ogg",
+    "close_003.ogg"
+   ],
+   "v": 0.4
+  }
+ }
+}
