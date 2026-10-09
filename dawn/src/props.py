@@ -117,6 +117,20 @@ done('W-16')
 grip(m=GUN); cyl(0.022, 0.016, 0.55, (0, -0.25, 0.05), rot=X90, m=METAL); sphere(0.014, (0, -0.53, 0.05), m=mat('Flame', (1, 0.4, 0.05), 0.3, 0, (1, 0.45, 0.1))); cyl(0.045, 0.045, 0.22, (0, 0.12, 0.0), m=RED)
 done('W-20')
 
+# ── 도는 것 — 생존자 둘레를 돈다(손에 안 든다). 원점 = 물건 가운데 ─────────
+# W-03 프라이팬 — 바닥 판과 낮은 테, 손잡이는 +Z
+cyl(0.13, 0.11, 0.035, (0, 0, 0), rot=X90, m=GUN, seg=20); cyl(0.115, 0.115, 0.006, (0, -0.018, 0), rot=X90, m=METAL, seg=20)
+box((0.028, 0.015, 0.2), (0, 0, 0.21), m=BLACK)
+done('W-03')
+# W-24 드론 — 몸통·팔 넷·프로펠러·아래 작업등
+box((0.16, 0.16, 0.06), (0, 0, 0), m=GUN)
+for a in (45, 135, 225, 315):
+    r = math.radians(a); x, y = math.cos(r) * 0.16, math.sin(r) * 0.16
+    box((0.2, 0.02, 0.015), (x / 2, y / 2, 0.01), rot=(0, 0, r), m=GUN)
+    cyl(0.075, 0.075, 0.006, (x, y, 0.04), m=BLACK, seg=12)
+box((0.06, 0.06, 0.025), (0, 0, -0.04), m=LAMP)
+done('W-24')
+
 for o in bpy.data.objects: o.select_set(True)
 bpy.ops.export_scene.gltf(filepath=out, export_format='GLB', use_selection=False, export_yup=True, export_apply=True)
 print('PROPS_OK', [o.name for o in bpy.data.objects])
