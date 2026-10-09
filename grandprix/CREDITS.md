@@ -3,7 +3,7 @@
 - `m/f1.glb` — scaranto 「Racing car」 (poly.pizza/m/EMcTJiXibv), CC0. 내 차(기본 스킨). 파일은 고치지 않았다(팀 색은 게임이 차체 재질 색만 바꾼다)
 - `m/race.glb` · `m/race-future.glb` · `m/Textures/colormap.png` — Kenney **Car Kit** 3.1 (www.kenney.nl), CC0. 경쟁 차. 파일은 고치지 않았다(팀 색은 게임이 팔레트 두 칸만 다시 칠한다)
 - `m/sports.glb` — Quaternius 「Sports Car」 (poly.pizza/m/1mkmFkAz5v), CC0. 경쟁 차. 파일은 고치지 않았다(바퀴 축은 게임이 불러올 때 맞춘다)
-- 스킨 모델(2026-10-09) — `m/truck.glb` · `m/suv.glb` · `m/truck-flat.glb`(픽업 스킨) — Kenney **Car Kit** 3.1, CC0, 고치지 않았다(그림은 `m/Textures/colormap.png` 를 같이 쓴다)
+- 스킨 모델(2026-10-09) — `m/delivery.glb`(트럭 스킨) · `m/truck.glb`(픽업 스킨 — Kenney 의 「truck」 은 픽업 꼴) · `m/suv.glb` — Kenney **Car Kit** 3.1, CC0, 고치지 않았다(그림은 `m/Textures/colormap.png` 를 같이 쓴다)
 - `m/schoolbus.glb` — Quaternius **Public Transport** 「SchoolBus」(quaternius.com/packs/publictransport.html), CC0. FBX → GLB 로만 바꿨다
 - `m/horse.glb` · `m/horse-white.glb` · `m/husky.glb` — Quaternius **Ultimate Animated Animals**(quaternius.com/packs/ultimateanimatedanimals.html), CC0. 동작은 `Gallop`·`Walk`·`Idle` 만 남기고 키프레임을 3분의 1로 솎았다(2MB → 0.3MB). 말·유니콘·마차·전차·강아지 산책 스킨
 - `sfx/engine.ogg` — domasx2 「racing car engine sound loops」 loop_0 (opengameart.org/content/racing-car-engine-sound-loops), CC0. 44.1kHz 단일 채널 ogg 로 바꿨다
